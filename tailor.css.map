@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA;IACK;EACH,OAAO,EAAE,IAAI;;AAGf,IAAK;EACH,cAAc,EAAE,GAAG;EAEnB,YAAU;IACR,cAAc,EAAE,WAAW;;AAI/B,IAAK;EACH,cAAc,EAAE,MAAM;EAEtB,YAAU;IACR,cAAc,EAAE,cAAc",
-"sources": ["tailor.scss"],
-"names": [],
-"file": "tailor.css"
-}
