@@ -1,0 +1,26 @@
+{
+  "name": "custom-grid-based-framework",
+  "version": "1.0.0",
+  "description": "CSS framework tailored to our team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shloch/custom-Grid-based-Framework.git"
+  },
+  "keywords": [
+    "css",
+    "framework"
+  ],
+  "author": "Fabien RAKOTOMAMPIANDRA & Louis SHEY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shloch/custom-Grid-based-Framework/issues"
+  },
+  "homepage": "https://github.com/shloch/custom-Grid-based-Framework#readme",
+  "devDependencies": {
+    "stylelint-config-standard": "^18.2.0"
+  }
+}
