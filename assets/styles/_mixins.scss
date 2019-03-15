@@ -16,3 +16,17 @@
     -ms-border-radius: $rounded-corner-radius;
     border-radius: $rounded-corner-radius;
 }
+
+@mixin yellow-buttons {
+    background-color: #FFCE32;
+    color: #2F2F30;
+    padding-bottom: 11px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 20px;
+    float: right;
+    @include rounded-corners;
+}

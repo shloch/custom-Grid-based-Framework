@@ -6,8 +6,8 @@
 
 /********************************************/
 
-@import 'colors';
 @import 'mixins';
+@import 'colors';
 @import 'type';
 
 /***** body *****/
@@ -22,64 +22,36 @@ body {
 div[id="upper container"] {
     background: url("../images/computer_girl.png") 100% 0 no-repeat;
     background-color: $microverse_pink;
-    height: 500px;
+    //height: 500px;
 }
 
-
-/********* menu *********/
-
-.menu {
-    //border: 1px solid green;
-    padding-top: 3%;
-    font-weight: 600;
-    .logo {
-        text-align: center;
-        .navbar-logo {
-            font-family: "Maven Pro";
-            font-size: 34px;
-            font-weight: bold;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: normal;
-            letter-spacing: normal;
-            color: #ffffff;
-            text-align: left;
-        }
-    }
-    .nav-links {
-        text-align: right;
-        padding-right: 8%;
-        ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-        li {
-            display: inline-block;
-            color: #ffffff;
-        }
-        a {
-            display: block;
-            padding: 6px 12px;
-            text-decoration: none;
-            color: white;
-        }
-        .last-menu {
-            background-color: #FFCE32;
-            color: #2F2F30;
-            padding-bottom: 11px;
-            padding-top: 10px;
-            padding-right: 25px;
-            padding-left: 25px;
-            margin-top: 0;
-            margin-right: 0;
-            margin-left: 20px;
-            float: right;
-            @include rounded-corners;
-        }
-    }
-}
-
+@import 'nav_links_styles';
 .upper-post-it {
     text-align: center;
+    border: 1px solid white;
+}
+
+
+/**** global school *****/
+
+.global-school {
+    border: 1px solid white;
+    padding-left: 6%;
+    h1 {
+        font-family: Domine;
+        font-size: 48px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.27;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    #copy-header {
+        font-size: 20px;
+        line-height: 1.65;
+        color: #ffffff;
+        margin-right: 30px;
+        margin-top: 15px;
+    }
 }
