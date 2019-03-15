@@ -80,14 +80,6 @@ body {
     width: 100%;
     max-width: 100%;
   }
-
-  .ds-none {
-    display: none;
-  }
-
-  .ds-flex {
-    display: flex;
-  }
 }
 
 // EXTRA SMALL SCREEN SIZE
@@ -154,18 +146,18 @@ body {
       max-width: 100%;
     }
 
-    .xs-none {
+    >.xs-none {
       display: none;
     }
 
-    .xs-flex {
+    >.xs-flex {
       display: flex;
     }
   }
 }
 
 // SMALL SCREEN SIZE
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 351px) and (max-width: 768px) {
   .hbox {
 
     >.sm-1 {
@@ -228,18 +220,18 @@ body {
       max-width: 100%;
     }
 
-    .sm-none {
+    >.sm-none {
       display: none;
     }
 
-    .sm-flex {
+    >.sm-flex {
       display: flex;
     }
   }
 }
 
 // MEDIUM SCREEN SIZE
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
   .hbox {
 
     >.md-1 {
@@ -302,18 +294,18 @@ body {
       max-width: 100%;
     }
 
-    .md-none {
+    >.md-none {
       display: none;
     }
 
-    .md-flex {
+    >.md-flex {
       display: flex;
     }
   }
 }
 
 // LARGE SCREEN SIZE
-@media screen and (max-width: 1250px) {
+@media screen and (min-width: 993px) and (max-width: 1250px) {
   .hbox {
 
     >.lg-1 {
@@ -376,11 +368,11 @@ body {
       max-width: 100%;
     }
 
-    .lg-none {
+    >.lg-none {
       display: none;
     }
 
-    .lg-flex {
+    >.lg-flex {
       display: flex;
     }
   }
@@ -450,11 +442,11 @@ body {
       max-width: 100%;
     }
 
-    .xl-none {
+    >.xl-none {
       display: none;
     }
 
-    .xl-flex {
+    >.xl-flex {
       display: flex;
     }
   }
