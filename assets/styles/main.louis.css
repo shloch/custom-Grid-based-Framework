@@ -1,3 +1,14 @@
 /********************************************/
 /*             Louis styles                */
 /********************************************/
+.menu {
+  border: 1px solid green;
+  height: 300px; }
+  .menu .logo {
+    border: 1px solid #5B00FF;
+    height: 250px; }
+  .menu .nav-links {
+    border: 1px solid red;
+    height: 200px; }
+
+/*# sourceMappingURL=main.louis.css.map */

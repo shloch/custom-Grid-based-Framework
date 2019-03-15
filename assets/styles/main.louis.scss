@@ -1,0 +1,21 @@
+/********************************************/
+
+
+/*             Louis styles                */
+
+
+/********************************************/
+
+@import 'colors';
+.menu {
+    border: 1px solid green;
+    height: 300px;
+    .logo {
+        border: 1px solid $microverse_pink;
+        height: 250px;
+    }
+    .nav-links {
+        border: 1px solid red;
+        height: 200px;
+    }
+}
