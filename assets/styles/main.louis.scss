@@ -7,15 +7,79 @@
 /********************************************/
 
 @import 'colors';
+@import 'mixins';
+@import 'type';
+
+/***** body *****/
+
+body {
+    @include default-styling;
+}
+
+
+/***** upper container *****/
+
+div[id="upper container"] {
+    background: url("../images/computer_girl.png") 100% 0 no-repeat;
+    background-color: $microverse_pink;
+    height: 500px;
+}
+
+
+/********* menu *********/
+
 .menu {
-    border: 1px solid green;
-    height: 300px;
+    //border: 1px solid green;
+    padding-top: 3%;
+    font-weight: 600;
     .logo {
-        border: 1px solid $microverse_pink;
-        height: 250px;
+        text-align: center;
+        .navbar-logo {
+            font-family: "Maven Pro";
+            font-size: 34px;
+            font-weight: bold;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #ffffff;
+            text-align: left;
+        }
     }
     .nav-links {
-        border: 1px solid red;
-        height: 200px;
+        text-align: right;
+        padding-right: 8%;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        li {
+            display: inline-block;
+            color: #ffffff;
+        }
+        a {
+            display: block;
+            padding: 6px 12px;
+            text-decoration: none;
+            color: white;
+        }
+        .last-menu {
+            background-color: #FFCE32;
+            color: #2F2F30;
+            padding-bottom: 11px;
+            padding-top: 10px;
+            padding-right: 25px;
+            padding-left: 25px;
+            margin-top: 0;
+            margin-right: 0;
+            margin-left: 20px;
+            float: right;
+            @include rounded-corners;
+        }
     }
+}
+
+.upper-post-it {
+    text-align: center;
 }
