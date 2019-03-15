@@ -7,14 +7,13 @@ body {
 
 .hbox,
 .vbox {
-  display: flex;
-  flex-wrap: wrap; }
+  display: flex; }
   .hbox > *,
   .vbox > * {
     flex: auto; }
 
 .hbox {
-  flex-direction: row; }
+  flex-flow: row wrap; }
   .hbox > .ds-1 {
     width: 8.3333%;
     max-width: 8.3333%; }
@@ -258,7 +257,7 @@ body {
   .hbox > .xl-flex {
     display: flex; } }
 .vbox {
-  flex-direction: column; }
+  flex-flow: column wrap; }
 
 .wrapper {
   background: #eee; }
