@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/shloch/custom-Grid-based-Framework#readme",
   "devDependencies": {
+    "prettier-stylelint": "^0.4.2",
     "stylelint-config-standard": "^18.2.0"
-  }
+  },
+  "dependencies": {}
 }
