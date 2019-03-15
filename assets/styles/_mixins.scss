@@ -17,7 +17,7 @@
     border-radius: $rounded-corner-radius;
 }
 
-@mixin yellow-buttons {
+@mixin yellow-buttons-menu {
     background-color: #FFCE32;
     color: #2F2F30;
     padding-bottom: 11px;
@@ -27,6 +27,19 @@
     margin-top: 0;
     margin-right: 0;
     margin-left: 20px;
-    float: right;
+    @include rounded-corners;
+}
+
+@mixin yellow-buttons {
+    background-color: #FFCE32;
+    color: #2F2F30;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    text-decoration: none;
     @include rounded-corners;
 }

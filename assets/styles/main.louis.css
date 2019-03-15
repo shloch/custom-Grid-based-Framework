@@ -30,6 +30,22 @@ body {
   text-align: left;
   background-color: #fff; }
 
+.yellow-buttons {
+  background-color: #FFCE32;
+  color: #2F2F30;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  text-decoration: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px; }
+
 /***** upper container *****/
 div[id="upper container"] {
   background: url("../images/computer_girl.png") 100% 0 no-repeat;
@@ -76,7 +92,6 @@ div[id="upper container"] {
       margin-top: 0;
       margin-right: 0;
       margin-left: 20px;
-      float: right;
       -webkit-border-radius: 4px;
       -moz-border-radius: 4px;
       -ms-border-radius: 4px;
@@ -120,5 +135,15 @@ div[id="upper container"] {
     color: #ffffff;
     margin-right: 30px;
     margin-top: 15px; }
+  .global-school .applynow {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.034em; }
+    @media screen and (max-width: 762px) {
+      .global-school .applynow {
+        display: inline-block;
+        width: 89%;
+        margin: 0 auto;
+        font-size: 1.2em; } }
 
 /*# sourceMappingURL=main.louis.css.map */

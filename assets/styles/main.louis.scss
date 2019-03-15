@@ -16,6 +16,10 @@ body {
     @include default-styling;
 }
 
+.yellow-buttons {
+    @include yellow-buttons;
+}
+
 
 /***** upper container *****/
 
@@ -53,5 +57,16 @@ div[id="upper container"] {
         color: #ffffff;
         margin-right: 30px;
         margin-top: 15px;
+    }
+    .applynow {
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: 0.034em;
+        @media screen and (max-width: 762px) {
+            display: inline-block;
+            width: 89%;
+            margin: 0 auto;
+            font-size: 1.2em;
+        }
     }
 }
