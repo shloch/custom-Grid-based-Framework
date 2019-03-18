@@ -15,55 +15,42 @@ body {
 .vbox {
   flex-flow: column wrap; }
 
-.hbox,
-.vbox {
+.hbox {
   flex-flow: row wrap; }
-  .hbox > .ds-1,
-  .vbox > .ds-1 {
+  .hbox > .ds-1 {
     width: 8.3333%;
     max-width: 8.3333%; }
-  .hbox > .ds-2,
-  .vbox > .ds-2 {
+  .hbox > .ds-2 {
     width: 16.6666%;
     max-width: 1.6666%; }
-  .hbox > .ds-3,
-  .vbox > .ds-3 {
+  .hbox > .ds-3 {
     width: 25%;
     max-width: 25%; }
-  .hbox > .ds-4,
-  .vbox > .ds-4 {
+  .hbox > .ds-4 {
     width: 33.3333%;
     max-width: 33.3333%; }
-  .hbox > .ds-5,
-  .vbox > .ds-5 {
+  .hbox > .ds-5 {
     width: 41.6666%;
     max-width: 41.6666%; }
-  .hbox > .ds-6,
-  .vbox > .ds-6 {
+  .hbox > .ds-6 {
     width: 50%;
     max-width: 50%; }
-  .hbox > .ds-7,
-  .vbox > .ds-7 {
+  .hbox > .ds-7 {
     width: 58.3333%;
     max-width: 58.3333%; }
-  .hbox > .ds-8,
-  .vbox > .ds-8 {
+  .hbox > .ds-8 {
     width: 66.6666%;
     max-width: 66.6666%; }
-  .hbox > .ds-9,
-  .vbox > .ds-9 {
+  .hbox > .ds-9 {
     width: 75%;
     max-width: 75%; }
-  .hbox > .ds-10,
-  .vbox > .ds-10 {
+  .hbox > .ds-10 {
     width: 83.3333%;
     max-width: 83.3333%; }
-  .hbox > .ds-11,
-  .vbox > .ds-11 {
+  .hbox > .ds-11 {
     width: 91.6666%;
     max-width: 91.6666%; }
-  .hbox > .ds-12,
-  .vbox > .ds-12 {
+  .hbox > .ds-12 {
     width: 100%;
     max-width: 100%; }
 

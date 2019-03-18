@@ -22,8 +22,7 @@ body {
 }
 
 // HBOX,
-.hbox,
-.vbox {
+.hbox {
   flex-flow: row wrap;
 
   >.ds-1 {

@@ -10,7 +10,7 @@ body {
   margin: auto;
 
   >.title {
-    padding: 17px 100px;
+    text-align: center;
     background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com.svg) top left/100% 100% no-repeat;
   }
 
@@ -19,21 +19,31 @@ body {
   }
 
   #testimonials>.card {}
+
+  p {
+    line-height: 1.5;
+    text-align: center;
+  }
 }
 
 h2.title {
   margin: 10px 0;
   font-size: 2.5em;
+  padding: 17px 100px;
   font-family: Domine;
 }
 
-p {
-  line-height: 1.5;
-  text-align: center;
-}
-
 #founder-story {
+  >div:last-of-type {
+    text-align: right;
+  }
+
   .title {
+    display: inline-block;
     background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com_5.svg) top left/100% 100% no-repeat;
   }
+}
+
+#tuition {
+  text-align: center;
 }
