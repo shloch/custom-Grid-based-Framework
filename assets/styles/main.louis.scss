@@ -1,0 +1,72 @@
+/********************************************/
+
+
+/*             Louis styles                */
+
+
+/********************************************/
+
+@import 'mixins';
+@import 'colors';
+@import 'type';
+
+/***** body *****/
+
+body {
+    @include default-styling;
+}
+
+.yellow-buttons {
+    @include yellow-buttons;
+}
+
+
+/***** upper container *****/
+
+div[id="upper container"] {
+    background: url("../images/computer_girl.png") 100% 0 no-repeat;
+    background-color: $microverse_pink;
+    //height: 500px;
+}
+
+@import 'nav_links_styles';
+.upper-post-it {
+    text-align: center;
+    border: 1px solid white;
+}
+
+
+/**** global school *****/
+
+.global-school {
+    border: 1px solid white;
+    padding-left: 6%;
+    h1 {
+        font-family: Domine;
+        font-size: 48px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.27;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    #copy-header {
+        font-size: 20px;
+        line-height: 1.65;
+        color: #ffffff;
+        margin-right: 30px;
+        margin-top: 15px;
+    }
+    .applynow {
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: 0.034em;
+        @media screen and (max-width: 762px) {
+            display: inline-block;
+            width: 89%;
+            margin: 0 auto;
+            font-size: 1.2em;
+        }
+    }
+}
