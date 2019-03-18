@@ -128,18 +128,7 @@
                 }
             }
             .center-heading-undertxt {
-                text-align: center;
-                border: 1px solid black;
-                margin: auto;
-                font-family: Montserrat;
-                font-size: 20px;
-                font-weight: normal;
-                font-style: normal;
-                font-stretch: normal;
-                line-height: 1.65;
-                letter-spacing: normal;
-                text-align: center;
-                color: #636c98;
+                @include under-heading-txt;
             }
         }
         /*<!--______3 cubes section______-->*/
@@ -156,5 +145,28 @@
             }
             .cube-3 {
                 @include cube-design;
+            }
+        }
+        /*<!--___________STUDENT LIFE________-->*/
+        
+        div[id="student-life"] {
+            .heading {
+                //border: 1px solid black;
+                text-align: center;
+                margin: auto;
+                #student-life-title {
+                    background: url('../images/grafity-green.svg') no-repeat;
+                    background-size: 100% 100%;
+                    resize: both;
+                    background-position: center;
+                    padding: 21px 8px;
+                    margin: 87px 0 15px;
+                    overflow: visible;
+                    @include h2-header;
+                    color: #f9f9f9;
+                }
+            }
+            .under-heading-txt {
+                @include under-heading-txt;
             }
         }

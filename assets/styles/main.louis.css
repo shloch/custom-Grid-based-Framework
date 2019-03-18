@@ -205,7 +205,6 @@ div[id="upper-container"] {
       margin-bottom: 3%; }
   #first-white-block .center-heading-undertxt {
     text-align: center;
-    border: 1px solid black;
     margin: auto;
     font-family: Montserrat;
     font-size: 20px;
@@ -275,5 +274,40 @@ div[id="upper-container"] {
       font-weight: normal;
       font-style: normal;
       font-stretch: normal; }
+
+/*<!--___________STUDENT LIFE________-->*/
+div[id="student-life"] .heading {
+  text-align: center;
+  margin: auto; }
+  div[id="student-life"] .heading #student-life-title {
+    background: url("../images/grafity-green.svg") no-repeat;
+    background-size: 100% 100%;
+    resize: both;
+    background-position: center;
+    padding: 21px 8px;
+    margin: 87px 0 15px;
+    overflow: visible;
+    font-family: Domine;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dusk);
+    color: #f9f9f9; }
+div[id="student-life"] .under-heading-txt {
+  text-align: center;
+  margin: auto;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.65;
+  letter-spacing: normal;
+  text-align: center;
+  color: #636c98; }
 
 /*# sourceMappingURL=main.louis.css.map */

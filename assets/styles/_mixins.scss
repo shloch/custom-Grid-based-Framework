@@ -82,3 +82,18 @@
         font-stretch: normal;
     }
 }
+
+@mixin under-heading-txt {
+    text-align: center;
+    //border: 1px solid black;
+    margin: auto;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: center;
+    color: #636c98;
+}
