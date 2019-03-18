@@ -201,7 +201,8 @@ div[id="upper-container"] {
       line-height: normal;
       letter-spacing: normal;
       text-align: center;
-      color: var(--dusk); }
+      color: var(--dusk);
+      margin-bottom: 3%; }
   #first-white-block .center-heading-undertxt {
     text-align: center;
     border: 1px solid black;
@@ -215,5 +216,64 @@ div[id="upper-container"] {
     letter-spacing: normal;
     text-align: center;
     color: #636c98; }
+
+/*<!--______3 cubes section______-->*/
+.cubes {
+  padding-bottom: 3em;
+  margin-top: 3%; }
+  .cubes .cube-1 {
+    margin-left: 6%;
+    padding: 1%;
+    text-align: center;
+    line-height: 1.41;
+    color: #636c98;
+    padding: 0 25px; }
+    .cubes .cube-1 a {
+      text-decoration: none;
+      color: #47CDAF; }
+    .cubes .cube-1 img {
+      width: 100%; }
+    .cubes .cube-1 p {
+      font-family: Montserrat;
+      font-size: 17px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal; }
+  .cubes .cube-2 {
+    margin-left: 6%;
+    padding: 1%;
+    text-align: center;
+    line-height: 1.41;
+    color: #636c98;
+    padding: 0 25px; }
+    .cubes .cube-2 a {
+      text-decoration: none;
+      color: #47CDAF; }
+    .cubes .cube-2 img {
+      width: 100%; }
+    .cubes .cube-2 p {
+      font-family: Montserrat;
+      font-size: 17px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal; }
+  .cubes .cube-3 {
+    margin-left: 6%;
+    padding: 1%;
+    text-align: center;
+    line-height: 1.41;
+    color: #636c98;
+    padding: 0 25px; }
+    .cubes .cube-3 a {
+      text-decoration: none;
+      color: #47CDAF; }
+    .cubes .cube-3 img {
+      width: 100%; }
+    .cubes .cube-3 p {
+      font-family: Montserrat;
+      font-size: 17px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal; }
 
 /*# sourceMappingURL=main.louis.css.map */
