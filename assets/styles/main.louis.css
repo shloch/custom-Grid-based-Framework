@@ -47,9 +47,15 @@ body {
   border-radius: 4px; }
 
 /***** upper container *****/
-div[id="upper container"] {
+div[id="upper-container"] {
   background: url("../images/computer_girl.png") 100% 0 no-repeat;
-  background-color: #5B00FF; }
+  background-color: #5B00FF;
+  padding-left: 6%; }
+  @media screen and (max-width: 762px) {
+    div[id="upper-container"] {
+      background: url("../images/computer_girl.png") 100% 0 no-repeat;
+      background-color: #5B00FF;
+      padding-left: 6%; } }
 
 /********* menu *********/
 .menu {
@@ -118,8 +124,7 @@ div[id="upper container"] {
 
 /**** global school *****/
 .global-school {
-  border: 1px solid white;
-  padding-left: 6%; }
+  border: 1px solid white; }
   .global-school h1 {
     font-family: Domine;
     font-size: 48px;
@@ -145,5 +150,70 @@ div[id="upper container"] {
         width: 89%;
         margin: 0 auto;
         font-size: 1.2em; } }
+
+/** lower postit ****/
+.lower-postit {
+  --oPadding: calc(0.16 * 100vw); }
+
+.lower-pink .lower-arrow {
+  text-align: center;
+  color: white;
+  vertical-align: middle; }
+  @media screen and (max-width: 992px) {
+    .lower-pink .lower-arrow {
+      margin-top: 6.25em;
+      text-align: center;
+      color: white;
+      vertical-align: middle;
+      padding-top: 6.25em; } }
+
+.lower-pink2 {
+  background-image: -webkit-linear-gradient(280deg, #5B00FF 50%, #F8F9FF 51%);
+  height: 200px;
+  margin-top: -80px;
+  margin-left: -5%; }
+  @media screen and (max-width: 992px) {
+    .lower-pink2 {
+      background-image: -webkit-linear-gradient(280deg, #5B00FF 50%, #F8F9FF 51%);
+      height: 200px;
+      margin-top: -20px;
+      margin-left: -6%; } }
+
+/*--first yellow graphity yellow-->*/
+#first-white-block {
+  background-color: #F8F9FF;
+  padding-top: 1em; }
+  #first-white-block .center-heading {
+    border: 1px solid black;
+    margin: auto;
+    text-align: center; }
+    #first-white-block .center-heading #life-changing-experience-title {
+      background: url("../images/graphity_yellow.svg") no-repeat;
+      resize: both;
+      background-position: center;
+      padding: 23px 18px 15px;
+      overflow: visible;
+      font-family: Domine;
+      font-size: 36px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: var(--dusk); }
+  #first-white-block .center-heading-undertxt {
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: center;
+    color: #636c98; }
 
 /*# sourceMappingURL=main.louis.css.map */

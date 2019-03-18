@@ -1,72 +1,143 @@
-/********************************************/
-
-
-/*             Louis styles                */
-
-
-/********************************************/
-
-@import 'mixins';
-@import 'colors';
-@import 'type';
-
-/***** body *****/
-
-body {
-    @include default-styling;
-}
-
-.yellow-buttons {
-    @include yellow-buttons;
-}
-
-
-/***** upper container *****/
-
-div[id="upper container"] {
-    background: url("../images/computer_girl.png") 100% 0 no-repeat;
-    background-color: $microverse_pink;
-    //height: 500px;
-}
-
-@import 'nav_links_styles';
-.upper-post-it {
-    text-align: center;
-    border: 1px solid white;
-}
-
-
-/**** global school *****/
-
-.global-school {
-    border: 1px solid white;
-    padding-left: 6%;
-    h1 {
-        font-family: Domine;
-        font-size: 48px;
-        font-weight: bold;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.27;
-        letter-spacing: normal;
-        color: #ffffff;
-    }
-    #copy-header {
-        font-size: 20px;
-        line-height: 1.65;
-        color: #ffffff;
-        margin-right: 30px;
-        margin-top: 15px;
-    }
-    .applynow {
-        text-align: center;
-        font-weight: 600;
-        letter-spacing: 0.034em;
-        @media screen and (max-width: 762px) {
-            display: inline-block;
-            width: 89%;
-            margin: 0 auto;
-            font-size: 1.2em;
+        /********************************************/
+        /*             Louis styles                */
+        /********************************************/
+        
+        @import 'mixins';
+        @import 'colors';
+        @import 'type';
+        /***** body *****/
+        
+        body {
+            @include default-styling;
         }
-    }
-}
+        
+        .yellow-buttons {
+            @include yellow-buttons;
+        }
+        /***** upper container *****/
+        
+        div[id="upper-container"] {
+            background: url("../images/computer_girl.png") 100% 0 no-repeat;
+            background-color: $microverse_pink;
+            padding-left: 6%;
+            //height: 500px;
+            @media screen and (max-width: 762px) {
+                background: url("../images/computer_girl.png") 100% 0 no-repeat;
+                background-color: $microverse_pink;
+                padding-left: 6%;
+            }
+        }
+        
+        @import 'nav_links_styles';
+        .upper-post-it {
+            text-align: center;
+            border: 1px solid white;
+        }
+        /**** global school *****/
+        
+        .global-school {
+            border: 1px solid white;
+            h1 {
+                font-family: Domine;
+                font-size: 48px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.27;
+                letter-spacing: normal;
+                color: #ffffff;
+            }
+            #copy-header {
+                font-size: 20px;
+                line-height: 1.65;
+                color: #ffffff;
+                margin-right: 30px;
+                margin-top: 15px;
+            }
+            .applynow {
+                text-align: center;
+                font-weight: 600;
+                letter-spacing: 0.034em;
+                @media screen and (max-width: 762px) {
+                    display: inline-block;
+                    width: 89%;
+                    margin: 0 auto;
+                    font-size: 1.2em;
+                }
+            }
+        }
+        /** lower postit ****/
+        
+        .lower-postit {
+            //border: 1px solid seagreen;
+            //height: 100px;
+            --oPadding: calc(0.16 * 100vw);
+        }
+        
+        .lower-pink {
+            //background-image: -webkit-linear-gradient(280deg, $microverse_pink 50%, $microverse_white 51%);
+            .lower-arrow {
+                //border: 1px solid seagreen;
+                text-align: center;
+                color: white;
+                vertical-align: middle;
+                //padding-top: 6.25em;
+                @media screen and (max-width: 992px) {
+                    margin-top: 6.25em;
+                    text-align: center;
+                    color: white;
+                    vertical-align: middle;
+                    padding-top: 6.25em;
+                }
+            }
+        }
+        
+        .lower-pink2 {
+            background-image: -webkit-linear-gradient(280deg, $microverse_pink 50%, $microverse_white 51%);
+            height: 200px;
+            //border: 1px solid black;
+            margin-top: -80px;
+            margin-left: -5%;
+            @media screen and (max-width: 992px) {
+                background-image: -webkit-linear-gradient(280deg, $microverse_pink 50%, $microverse_white 51%);
+                height: 200px;
+                //border: 1px solid black;
+                margin-top: -20px;
+                margin-left: -6%;
+            }
+        }
+        /*--first yellow graphity yellow-->*/
+        
+        #first-white-block {
+            background-color: $microverse_white;
+            padding-top: 1em;
+            .center-heading {
+                border: 1px solid black;
+                margin: auto;
+                text-align: center;
+                #life-changing-experience-title {
+                    background: url('../images/graphity_yellow.svg') no-repeat;
+                    //background-size: 100% 100%;
+                    resize: both;
+                    background-position: center;
+                    padding: 23px 18px 15px;
+                    //margin: 46px 0 24px;
+                    overflow: visible;
+                    @include h2-header;
+                }
+            }
+            .center-heading-undertxt {
+                text-align: center;
+                border: 1px solid black;
+                margin: auto;
+                font-family: Montserrat;
+                font-size: 20px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.65;
+                letter-spacing: normal;
+                text-align: center;
+                color: #636c98;
+            }
+        }
