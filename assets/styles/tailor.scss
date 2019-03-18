@@ -16,8 +16,9 @@ body {
   }
 }
 
-// HBOX
-.hbox {
+// HBOX,
+.hbox,
+.vbox {
   flex-flow: row wrap;
 
   >.ds-1 {
@@ -83,7 +84,9 @@ body {
 
 // EXTRA SMALL SCREEN SIZE
 @media screen and (max-width: 350px) {
-  .hbox {
+
+  .hbox,
+  .vbox {
     >.xs-1 {
       width: 8.3333%;
       max-width: 8.3333%;
@@ -156,7 +159,9 @@ body {
 
 // SMALL SCREEN SIZE
 @media screen and (min-width: 351px) and (max-width: 768px) {
-  .hbox {
+
+  .hbox,
+  .vbox {
     >.sm-1 {
       width: 8.3333%;
       max-width: 8.3333%;
@@ -229,7 +234,9 @@ body {
 
 // MEDIUM SCREEN SIZE
 @media screen and (min-width: 769px) and (max-width: 992px) {
-  .hbox {
+
+  .hbox,
+  .vbox {
     >.md-1 {
       width: 8.3333%;
       max-width: 8.3333%;
@@ -302,7 +309,9 @@ body {
 
 // LARGE SCREEN SIZE
 @media screen and (min-width: 993px) and (max-width: 1250px) {
-  .hbox {
+
+  .hbox,
+  .vbox {
     >.lg-1 {
       width: 8.3333%;
       max-width: 8.3333%;
@@ -375,7 +384,9 @@ body {
 
 // EXTRA LARGE SCREEN SIZE
 @media screen and (min-width: 1251px) {
-  .hbox {
+
+  .hbox,
+  .vbox {
     >.xl-1 {
       width: 8.3333%;
       max-width: 8.3333%;
@@ -453,37 +464,37 @@ body {
 
 // Alignment
 .hbox.left,
-.box.left {
-  justify-content: left;
+.vbox.left {
+  justify-items: left;
 }
 
 .hbox.h-center,
-.box.h-center {
-  justify-content: center;
+.vbox.h-center {
+  justify-items: center;
 }
 
 .hbox.right,
-.box.right {
-  justify-content: right;
+.vbox.right {
+  justify-items: right;
 }
 
 .hbox.top,
-.box.top {
-  align-content: start;
+.vbox.top {
+  align-items: start;
 }
 
 .hbox.v-center,
-.box.v-center {
-  align-content: center;
+.vbox.v-center {
+  align-items: center;
 }
 
 .hbox.bottom,
-.box.bottom {
-  align-content: end;
+.vbox.bottom {
+  align-items: end;
 }
 
 .hbox.center,
-.box.center {
-  align-content: center;
-  justify-content: center;
+.vbox.center {
+  align-items: center;
+  justify-items: center;
 }
