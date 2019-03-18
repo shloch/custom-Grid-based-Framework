@@ -56,6 +56,17 @@
     color: var(--dusk);
 }
 
+@mixin h3-header {
+    font-family: Domine;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--dusk);
+}
+
 @mixin cube-design {
     //border: 1px solid black;
     margin-left: 6%;
@@ -95,5 +106,16 @@
     line-height: 1.65;
     letter-spacing: normal;
     text-align: center;
+    color: #636c98;
+}
+
+@mixin paragraph-design {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.94;
+    letter-spacing: normal;
     color: #636c98;
 }
