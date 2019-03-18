@@ -201,10 +201,10 @@ div[id="upper-container"] {
       line-height: normal;
       letter-spacing: normal;
       text-align: center;
-      color: var(--dusk); }
+      color: var(--dusk);
+      margin-bottom: 3%; }
   #first-white-block .center-heading-undertxt {
     text-align: center;
-    border: 1px solid black;
     margin: auto;
     font-family: Montserrat;
     font-size: 20px;
@@ -215,5 +215,99 @@ div[id="upper-container"] {
     letter-spacing: normal;
     text-align: center;
     color: #636c98; }
+
+/*<!--______3 cubes section______-->*/
+.cubes {
+  padding-bottom: 3em;
+  margin-top: 3%; }
+  .cubes .cube-1 {
+    margin-left: 6%;
+    padding: 1%;
+    text-align: center;
+    line-height: 1.41;
+    color: #636c98;
+    padding: 0 25px; }
+    .cubes .cube-1 a {
+      text-decoration: none;
+      color: #47CDAF; }
+    .cubes .cube-1 img {
+      width: 100%; }
+    .cubes .cube-1 p {
+      font-family: Montserrat;
+      font-size: 17px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal; }
+  .cubes .cube-2 {
+    margin-left: 6%;
+    padding: 1%;
+    text-align: center;
+    line-height: 1.41;
+    color: #636c98;
+    padding: 0 25px; }
+    .cubes .cube-2 a {
+      text-decoration: none;
+      color: #47CDAF; }
+    .cubes .cube-2 img {
+      width: 100%; }
+    .cubes .cube-2 p {
+      font-family: Montserrat;
+      font-size: 17px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal; }
+  .cubes .cube-3 {
+    margin-left: 6%;
+    padding: 1%;
+    text-align: center;
+    line-height: 1.41;
+    color: #636c98;
+    padding: 0 25px; }
+    .cubes .cube-3 a {
+      text-decoration: none;
+      color: #47CDAF; }
+    .cubes .cube-3 img {
+      width: 100%; }
+    .cubes .cube-3 p {
+      font-family: Montserrat;
+      font-size: 17px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal; }
+
+/*<!--___________STUDENT LIFE________-->*/
+div[id="student-life"] .heading {
+  text-align: center;
+  margin: auto; }
+  div[id="student-life"] .heading #student-life-title {
+    background: url("../images/grafity-green.svg") no-repeat;
+    background-size: 100% 100%;
+    resize: both;
+    background-position: center;
+    padding: 21px 8px;
+    margin: 87px 0 15px;
+    overflow: visible;
+    font-family: Domine;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dusk);
+    color: #f9f9f9; }
+div[id="student-life"] .under-heading-txt {
+  text-align: center;
+  margin: auto;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.65;
+  letter-spacing: normal;
+  text-align: center;
+  color: #636c98; }
 
 /*# sourceMappingURL=main.louis.css.map */
