@@ -1,4 +1,8 @@
-/********************************************/
-/*             Fabien styles                */
-/********************************************/
+#global-community > .title {
+  text-align: center; }
+  #global-community > .title > span {
+    padding: 15px 30px;
+    display: inline-block;
+    background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com.svg) top left/100% 100% no-repeat; }
 
+/*# sourceMappingURL=main.fabien.css.map */
