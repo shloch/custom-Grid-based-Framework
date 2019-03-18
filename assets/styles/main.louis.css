@@ -153,20 +153,67 @@ div[id="upper-container"] {
 
 /** lower postit ****/
 .lower-postit {
-  border: 1px solid seagreen;
   --oPadding: calc(0.16 * 100vw); }
 
-.lower-pink {
-  background-image: -webkit-linear-gradient(280deg, #5B00FF 50%, #F8F9FF 51%); }
-  .lower-pink .lower-arrow {
-    border: 1px solid seagreen;
+.lower-pink .lower-arrow {
+  text-align: center;
+  color: white;
+  vertical-align: middle; }
+  @media screen and (max-width: 992px) {
+    .lower-pink .lower-arrow {
+      margin-top: 6.25em;
+      text-align: center;
+      color: white;
+      vertical-align: middle;
+      padding-top: 6.25em; } }
+
+.lower-pink2 {
+  background-image: -webkit-linear-gradient(280deg, #5B00FF 50%, #F8F9FF 51%);
+  height: 200px;
+  margin-top: -80px;
+  margin-left: -5%; }
+  @media screen and (max-width: 992px) {
+    .lower-pink2 {
+      background-image: -webkit-linear-gradient(280deg, #5B00FF 50%, #F8F9FF 51%);
+      height: 200px;
+      margin-top: -20px;
+      margin-left: -6%; } }
+
+/*--first yellow graphity yellow-->*/
+#first-white-block {
+  background-color: #F8F9FF;
+  padding-top: 1em; }
+  #first-white-block .center-heading {
+    border: 1px solid black;
+    margin: auto;
+    text-align: center; }
+    #first-white-block .center-heading #life-changing-experience-title {
+      background: url("../images/graphity_yellow.svg") no-repeat;
+      resize: both;
+      background-position: center;
+      padding: 23px 18px 15px;
+      overflow: visible;
+      font-family: Domine;
+      font-size: 36px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: var(--dusk); }
+  #first-white-block .center-heading-undertxt {
     text-align: center;
-    color: white;
-    vertical-align: middle;
-    padding-top: 6.25em; }
-    .lower-pink .lower-arrow .below {
-      display: inline-block;
-      height: 300px;
-      width: 200px; }
+    border: 1px solid black;
+    margin: auto;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: center;
+    color: #636c98; }
 
 /*# sourceMappingURL=main.louis.css.map */
