@@ -29,5 +29,29 @@ h2.title {
 
 #tuition {
   text-align: center; }
+  #tuition .title {
+    background: url(https://www.microverse.org/img/path-5185_2.svg) top left/100% 100% no-repeat; }
+
+#application-process {
+  text-align: center; }
+  #application-process .title {
+    background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com_4.svg) top left/100% 100% no-repeat; }
+
+#faq {
+  text-align: center; }
+  #faq .title {
+    background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com_5.svg) top left/100% 100% no-repeat; }
+
+footer {
+  color: #fff;
+  position: relative;
+  background: #3e396b; }
+  footer > div:first-of-type img {
+    width: 24px; }
+  footer ul {
+    padding: 0;
+    list-style: none; }
+  footer > img {
+    position: absolute; }
 
 /*# sourceMappingURL=main.fabien.css.map */
