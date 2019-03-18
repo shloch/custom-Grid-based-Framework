@@ -12,6 +12,9 @@ body {
   .vbox > * {
     flex: auto; }
 
+.vbox {
+  flex-flow: column wrap; }
+
 .hbox,
 .vbox {
   flex-flow: row wrap; }
@@ -339,9 +342,6 @@ body {
   .hbox > .xl-flex,
   .vbox > .xl-flex {
     display: flex; } }
-.vbox {
-  flex-flow: column wrap; }
-
 .hbox.left,
 .vbox.left {
   justify-items: left; }
@@ -368,6 +368,35 @@ body {
 
 .hbox.center,
 .vbox.center {
+  align-items: center;
+  justify-items: center; }
+
+.hbox > *.left,
+.vbox > *.left {
+  justify-items: left; }
+
+.hbox > *.h-center,
+.vbox > *.h-center {
+  justify-items: center; }
+
+.hbox > *.right,
+.vbox > *.right {
+  justify-items: right; }
+
+.hbox > *.top,
+.vbox > *.top {
+  align-items: start; }
+
+.hbox > *.v-center,
+.vbox > *.v-center {
+  align-items: center; }
+
+.hbox > *.bottom,
+.vbox > *.bottom {
+  align-items: end; }
+
+.hbox > *.center,
+.vbox > *.center {
   align-items: center;
   justify-items: center; }
 

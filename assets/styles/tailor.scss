@@ -16,6 +16,11 @@ body {
   }
 }
 
+// VBOX
+.vbox {
+  flex-flow: column wrap;
+}
+
 // HBOX,
 .hbox,
 .vbox {
@@ -457,11 +462,6 @@ body {
   }
 }
 
-// VBOX
-.vbox {
-  flex-flow: column wrap;
-}
-
 // Alignment
 .hbox.left,
 .vbox.left {
@@ -495,6 +495,42 @@ body {
 
 .hbox.center,
 .vbox.center {
+  align-items: center;
+  justify-items: center;
+}
+
+.hbox>*.left,
+.vbox>*.left {
+  justify-items: left;
+}
+
+.hbox>*.h-center,
+.vbox>*.h-center {
+  justify-items: center;
+}
+
+.hbox>*.right,
+.vbox>*.right {
+  justify-items: right;
+}
+
+.hbox>*.top,
+.vbox>*.top {
+  align-items: start;
+}
+
+.hbox>*.v-center,
+.vbox>*.v-center {
+  align-items: center;
+}
+
+.hbox>*.bottom,
+.vbox>*.bottom {
+  align-items: end;
+}
+
+.hbox>*.center,
+.vbox>*.center {
   align-items: center;
   justify-items: center;
 }

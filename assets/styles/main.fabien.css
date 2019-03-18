@@ -9,9 +9,6 @@ body {
   #global-community > .title {
     padding: 17px 100px;
     background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com.svg) top left/100% 100% no-repeat; }
-  #global-community > p {
-    line-height: 1.5;
-    text-align: center; }
   #global-community > .map > img {
     width: 100%; }
 
@@ -19,5 +16,12 @@ h2.title {
   margin: 10px 0;
   font-size: 2.5em;
   font-family: Domine; }
+
+p {
+  line-height: 1.5;
+  text-align: center; }
+
+#founder-story .title {
+  background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com_5.svg) top left/100% 100% no-repeat; }
 
 /*# sourceMappingURL=main.fabien.css.map */
