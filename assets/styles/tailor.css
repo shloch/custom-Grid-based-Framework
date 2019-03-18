@@ -18,7 +18,7 @@ body {
     width: 8.3333%;
     max-width: 8.3333%; }
   .hbox > .ds-2 {
-    width: 1.6666%;
+    width: 16.6666%;
     max-width: 1.6666%; }
   .hbox > .ds-3 {
     width: 25%;
@@ -259,10 +259,33 @@ body {
 .vbox {
   flex-flow: column wrap; }
 
-.wrapper {
-  background: #eee; }
-  .wrapper > div {
-    padding: 10px;
-    border: 1px solid #555; }
+.hbox.left,
+.box.left {
+  justify-content: left; }
+
+.hbox.h-center,
+.box.h-center {
+  justify-content: center; }
+
+.hbox.right,
+.box.right {
+  justify-content: right; }
+
+.hbox.top,
+.box.top {
+  align-content: start; }
+
+.hbox.v-center,
+.box.v-center {
+  align-content: center; }
+
+.hbox.bottom,
+.box.bottom {
+  align-content: end; }
+
+.hbox.center,
+.box.center {
+  align-content: center;
+  justify-content: center; }
 
 /*# sourceMappingURL=tailor.css.map */
