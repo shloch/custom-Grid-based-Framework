@@ -501,36 +501,36 @@ body {
 
 .hbox>*.left,
 .vbox>*.left {
-  justify-items: left;
+  justify-self: left;
 }
 
 .hbox>*.h-center,
 .vbox>*.h-center {
-  justify-items: center;
+  justify-self: center;
 }
 
 .hbox>*.right,
 .vbox>*.right {
-  justify-items: right;
+  justify-self: right;
 }
 
 .hbox>*.top,
 .vbox>*.top {
-  align-items: start;
+  align-self: start;
 }
 
 .hbox>*.v-center,
 .vbox>*.v-center {
-  align-items: center;
+  align-self: center;
 }
 
 .hbox>*.bottom,
 .vbox>*.bottom {
-  align-items: end;
+  align-self: end;
 }
 
 .hbox>*.center,
 .vbox>*.center {
-  align-items: center;
-  justify-items: center;
+  align-self: center;
+  justify-self: center;
 }
