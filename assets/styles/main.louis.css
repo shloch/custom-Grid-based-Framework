@@ -278,7 +278,8 @@ div[id="upper-container"] {
 /*<!--___________STUDENT LIFE________-->*/
 div[id="student-life"] {
   /*<!--Your Coding Partner-->*/
-  /**<!--Your dedicated mentor-->*/ }
+  /**<!--Your dedicated mentor-->*/
+  /**<!--Your daily schedule-->*/ }
   div[id="student-life"] .heading {
     text-align: center;
     margin: auto; }
@@ -353,6 +354,7 @@ div[id="student-life"] {
         color: #5B00FF;
         display: block; }
       div[id="student-life"] .coding-partner .left #square-thingy-3 {
+        /*** small post-it image on headings***/
         margin: -16px -40px -49px -34px;
         z-index: -1;
         display: inline-block; }
@@ -368,31 +370,77 @@ div[id="student-life"] {
         height: auto; }
     div[id="student-life"] .coding-partner .xright #half-circle-1 {
       position: absolute; }
-  div[id="student-life"] .dedicated-mentor {
-    border: 1px solid black; }
-    div[id="student-life"] .dedicated-mentor .xleft {
-      border: 1px solid black; }
-    div[id="student-life"] .dedicated-mentor .left {
-      border: 1px solid black;
-      padding-top: 14em;
-      padding-right: 6%; }
+  div[id="student-life"] .dedicated-mentor .left {
+    padding-top: 14em;
+    padding-right: 6%; }
+    @media screen and (max-width: 768px) {
+      div[id="student-life"] .dedicated-mentor .left {
+        margin: auto;
+        padding-top: 3%; } }
+    div[id="student-life"] .dedicated-mentor .left img {
+      max-width: 100%;
+      height: auto; }
+  div[id="student-life"] .dedicated-mentor .right {
+    padding-top: 14em;
+    padding-right: 2%;
+    padding-left: 2%; }
+    @media screen and (max-width: 768px) {
+      div[id="student-life"] .dedicated-mentor .right {
+        margin: auto;
+        padding-left: 5%;
+        padding-top: 3%; } }
+    div[id="student-life"] .dedicated-mentor .right h3 {
+      margin-top: 25px;
+      margin-bottom: 19px;
+      font-family: Domine;
+      font-size: 28px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: var(--dusk); }
+    div[id="student-life"] .dedicated-mentor .right p {
+      font-family: Montserrat;
+      font-size: 17px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.94;
+      letter-spacing: normal;
+      color: #636c98; }
+    div[id="student-life"] .dedicated-mentor .right .faq-article-link {
+      font-family: Montserrat;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 800;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2.19;
+      letter-spacing: normal;
+      color: #5B00FF;
+      display: block; }
+    div[id="student-life"] .dedicated-mentor .right #square-thingy-3 {
+      /*** small post-it image on headings***/
+      margin: -16px -40px -49px -34px;
+      z-index: -1;
+      display: inline-block; }
+  div[id="student-life"] .daily-schedule {
+    border: 1px solid red; }
+    div[id="student-life"] .daily-schedule .left {
+      border: 1px solid green;
+      padding-left: 6%;
+      text-align: center; }
       @media screen and (max-width: 768px) {
-        div[id="student-life"] .dedicated-mentor .left {
+        div[id="student-life"] .daily-schedule .left {
           margin: auto;
           padding-top: 3%; } }
-      div[id="student-life"] .dedicated-mentor .left img {
-        max-width: 100%;
-        height: auto; }
-    div[id="student-life"] .dedicated-mentor .right {
-      padding-top: 14em;
-      padding-right: 2%;
-      padding-left: 2%; }
-      @media screen and (max-width: 768px) {
-        div[id="student-life"] .dedicated-mentor .right {
-          margin: auto;
-          padding-left: 5%;
-          padding-top: 3%; } }
-      div[id="student-life"] .dedicated-mentor .right h3 {
+      div[id="student-life"] .daily-schedule .left #square-thingy-3 {
+        /*** small post-it image on headings***/
+        margin: -16px -40px -49px -34px;
+        z-index: -1;
+        display: inline-block; }
+      div[id="student-life"] .daily-schedule .left h3 {
         margin-top: 25px;
         margin-bottom: 19px;
         font-family: Domine;
@@ -403,7 +451,7 @@ div[id="student-life"] {
         line-height: normal;
         letter-spacing: normal;
         color: var(--dusk); }
-      div[id="student-life"] .dedicated-mentor .right p {
+      div[id="student-life"] .daily-schedule .left p {
         font-family: Montserrat;
         font-size: 17px;
         font-weight: normal;
@@ -412,7 +460,10 @@ div[id="student-life"] {
         line-height: 1.94;
         letter-spacing: normal;
         color: #636c98; }
-      div[id="student-life"] .dedicated-mentor .right .faq-article-link {
+        div[id="student-life"] .daily-schedule .left p .inner-green-link {
+          color: #20c997;
+          text-decoration: none; }
+      div[id="student-life"] .daily-schedule .left .faq-article-link {
         font-family: Montserrat;
         text-decoration: none;
         font-size: 16px;
@@ -423,9 +474,15 @@ div[id="student-life"] {
         letter-spacing: normal;
         color: #5B00FF;
         display: block; }
-      div[id="student-life"] .dedicated-mentor .right #square-thingy-3 {
-        margin: -16px -40px -49px -34px;
-        z-index: -1;
-        display: inline-block; }
+    div[id="student-life"] .daily-schedule .right {
+      padding-left: 3%;
+      text-align: center; }
+      @media screen and (max-width: 768px) {
+        div[id="student-life"] .daily-schedule .right {
+          margin: auto;
+          padding-left: 5%;
+          padding-top: 3%; } }
+      div[id="student-life"] .daily-schedule .right img {
+        max-width: 100%; }
 
 /*# sourceMappingURL=main.louis.css.map */

@@ -189,21 +189,10 @@
                         @include paragraph-design;
                     }
                     .faq-article-link {
-                        font-family: Montserrat;
-                        text-decoration: none;
-                        font-size: 16px;
-                        font-weight: 800;
-                        font-style: normal;
-                        font-stretch: normal;
-                        line-height: 2.19;
-                        letter-spacing: normal;
-                        color: $microverse_pink;
-                        display: block;
+                        @include faq-article-link;
                     }
                     #square-thingy-3 {
-                        margin: -16px -40px -49px -34px;
-                        z-index: -1;
-                        display: inline-block;
+                        @include square-thingy-3;
                     }
                 }
                 .right {
@@ -228,12 +217,12 @@
             /**<!--Your dedicated mentor-->*/
             .dedicated-mentor {
                 //margin-top: 3%;
-                border: 1px solid black;
+                //border: 1px solid black;
                 .xleft {
-                    border: 1px solid black;
+                    //border: 1px solid black;
                 }
                 .left {
-                    border: 1px solid black;
+                    //border: 1px solid black;
                     padding-top: 14em;
                     padding-right: 6%;
                     @media screen and (max-width: 768px) {
@@ -264,25 +253,57 @@
                         @include paragraph-design;
                     }
                     .faq-article-link {
-                        font-family: Montserrat;
-                        text-decoration: none;
-                        font-size: 16px;
-                        font-weight: 800;
-                        font-style: normal;
-                        font-stretch: normal;
-                        line-height: 2.19;
-                        letter-spacing: normal;
-                        color: $microverse_pink;
-                        display: block;
+                        @include faq-article-link;
                     }
                     #square-thingy-3 {
-                        margin: -16px -40px -49px -34px;
-                        z-index: -1;
-                        display: inline-block;
+                        @include square-thingy-3;
                     }
                 }
                 .xright {
                     //margin: 1px solid red;
+                }
+            }
+            /**<!--Your daily schedule-->*/
+            .daily-schedule {
+                border: 1px solid red;
+                .left {
+                    border: 1px solid green;
+                    padding-left: 6%;
+                    text-align: center;
+                    @media screen and (max-width: 768px) {
+                        margin: auto;
+                        padding-top: 3%;
+                    }
+                    #square-thingy-3 {
+                        @include square-thingy-3;
+                    }
+                    h3 {
+                        margin-top: 25px;
+                        margin-bottom: 19px;
+                        @include h3-header;
+                    }
+                    p {
+                        @include paragraph-design;
+                        .inner-green-link {
+                            color: $teal;
+                            text-decoration: none;
+                        }
+                    }
+                    .faq-article-link {
+                        @include faq-article-link;
+                    }
+                }
+                .right {
+                    padding-left: 3%;
+                    text-align: center;
+                    @media screen and (max-width: 768px) {
+                        margin: auto;
+                        padding-left: 5%;
+                        padding-top: 3%;
+                    }
+                    img {
+                        max-width: 100%;
+                    }
                 }
             }
         }
