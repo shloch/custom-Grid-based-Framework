@@ -23,10 +23,16 @@ body {
 
 /***** upper container *****/
 
-div[id="upper container"] {
+div[id="upper-container"] {
     background: url("../images/computer_girl.png") 100% 0 no-repeat;
     background-color: $microverse_pink;
+    padding-left: 6%;
     //height: 500px;
+    @media screen and (max-width: 762px) {
+        background: url("../images/computer_girl.png") 100% 0 no-repeat;
+        background-color: $microverse_pink;
+        padding-left: 6%;
+    }
 }
 
 @import 'nav_links_styles';
@@ -40,7 +46,6 @@ div[id="upper container"] {
 
 .global-school {
     border: 1px solid white;
-    padding-left: 6%;
     h1 {
         font-family: Domine;
         font-size: 48px;
@@ -67,6 +72,31 @@ div[id="upper container"] {
             width: 89%;
             margin: 0 auto;
             font-size: 1.2em;
+        }
+    }
+}
+
+
+/** lower postit ****/
+
+.lower-postit {
+    border: 1px solid seagreen;
+    //height: 100px;
+    --oPadding: calc(0.16 * 100vw);
+}
+
+.lower-pink {
+    background-image: -webkit-linear-gradient(280deg, $microverse_pink 50%, $microverse_white 51%);
+    .lower-arrow {
+        border: 1px solid seagreen;
+        text-align: center;
+        color: white;
+        vertical-align: middle;
+        padding-top: 6.25em;
+        .below {
+            display: inline-block;
+            height: 300px;
+            width: 200px;
         }
     }
 }

@@ -47,9 +47,15 @@ body {
   border-radius: 4px; }
 
 /***** upper container *****/
-div[id="upper container"] {
+div[id="upper-container"] {
   background: url("../images/computer_girl.png") 100% 0 no-repeat;
-  background-color: #5B00FF; }
+  background-color: #5B00FF;
+  padding-left: 6%; }
+  @media screen and (max-width: 762px) {
+    div[id="upper-container"] {
+      background: url("../images/computer_girl.png") 100% 0 no-repeat;
+      background-color: #5B00FF;
+      padding-left: 6%; } }
 
 /********* menu *********/
 .menu {
@@ -118,8 +124,7 @@ div[id="upper container"] {
 
 /**** global school *****/
 .global-school {
-  border: 1px solid white;
-  padding-left: 6%; }
+  border: 1px solid white; }
   .global-school h1 {
     font-family: Domine;
     font-size: 48px;
@@ -145,5 +150,23 @@ div[id="upper container"] {
         width: 89%;
         margin: 0 auto;
         font-size: 1.2em; } }
+
+/** lower postit ****/
+.lower-postit {
+  border: 1px solid seagreen;
+  --oPadding: calc(0.16 * 100vw); }
+
+.lower-pink {
+  background-image: -webkit-linear-gradient(280deg, #5B00FF 50%, #F8F9FF 51%); }
+  .lower-pink .lower-arrow {
+    border: 1px solid seagreen;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    padding-top: 6.25em; }
+    .lower-pink .lower-arrow .below {
+      display: inline-block;
+      height: 300px;
+      width: 200px; }
 
 /*# sourceMappingURL=main.louis.css.map */
