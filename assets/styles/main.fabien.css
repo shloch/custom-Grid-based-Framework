@@ -3,9 +3,6 @@ body {
   font-family: Montserrat; }
 
 #global-community {
-  margin: auto;
-  padding: 20px;
-  width: 1140px;
   background: #fff;
   transform: skewY(-9deg); }
   #global-community > * {
@@ -37,7 +34,7 @@ body {
       #global-community #testimonials > .card:nth-of-type(1) > .picture {
         background-image: url(https://www.microverse.org/img/oval-3.svg); }
       #global-community #testimonials > .card:nth-of-type(2) {
-        margin: 0 70px; }
+        margin: 0 60px; }
         #global-community #testimonials > .card:nth-of-type(2) > .picture {
           background-size: 100% 100%;
           background-image: url(https://www.microverse.org/img/rectangle-8.svg); }
@@ -66,20 +63,68 @@ body {
     line-height: 1.65;
     text-align: center; }
   #global-community #community-testimonials {
+    overflow: hidden;
     margin-top: 100px;
     position: relative;
     transform: skewY(0deg); }
-    #global-community #community-testimonials > div {
-      transform: skewY(0deg); }
-      #global-community #community-testimonials > div:nth-of-type(odd) {
-        padding-right: 50px; }
-      #global-community #community-testimonials > div:nth-of-type(even) {
-        padding-left: 50px; }
-      #global-community #community-testimonials > div:nth-of-type(1), #global-community #community-testimonials > div:nth-of-type(4) {
-        background: #f8faff; }
-      #global-community #community-testimonials > div > div {
-        padding: 10px 0;
-        transform: skewY(9deg) translateY(40px); }
+    #global-community #community-testimonials > .content {
+      overflow: visible; }
+      #global-community #community-testimonials > .content > div {
+        position: relative;
+        transform: skewY(0deg); }
+        #global-community #community-testimonials > .content > div:nth-of-type(odd) {
+          padding-right: 10%; }
+          #global-community #community-testimonials > .content > div:nth-of-type(odd)::after {
+            right: 0; }
+        #global-community #community-testimonials > .content > div:nth-of-type(even) {
+          padding-left: 10%; }
+          #global-community #community-testimonials > .content > div:nth-of-type(even)::after {
+            left: 0; }
+        #global-community #community-testimonials > .content > div:nth-of-type(1)::after, #global-community #community-testimonials > .content > div:nth-of-type(4)::after {
+          top: 0;
+          content: "";
+          width: 150%;
+          height: 100%;
+          z-index: -1;
+          position: absolute;
+          transform: skewY(0deg);
+          background: #f8faff; }
+        #global-community #community-testimonials > .content > div > * {
+          transform: skewY(9deg); }
+        #global-community #community-testimonials > .content > div > h3 {
+          color: #3e396b;
+          font-size: 28px;
+          margin-top: 100px;
+          font-family: Domine;
+          margin-bottom: 18px; }
+        #global-community #community-testimonials > .content > div > p {
+          font-size: 17px;
+          color: #636c98;
+          line-height: 1.94;
+          margin: 0 0 20px 0; }
+        #global-community #community-testimonials > .content > div > a {
+          color: #3e3e3e;
+          font-weight: 600;
+          padding: 15px 40px;
+          border-radius: 4px;
+          margin-bottom: 100px;
+          background: #ffd540;
+          display: inline-block;
+          text-decoration: none;
+          text-transform: uppercase;
+          box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.19);
+          text-shadow: 0 1px 1px rgba(255, 255, 255, 0.57); }
+      #global-community #community-testimonials > .content > .picture {
+        display: grid;
+        padding-top: 100px;
+        align-items: center;
+        padding-bottom: 100px;
+        justify-items: center;
+        transform: skewY(9deg);
+        grid-template-columns: repeat(auto-fill, minmax(45%, 1fr)); }
+        #global-community #community-testimonials > .content > .picture > img {
+          max-width: 90%;
+          transform: skewY(0deg); }
 
 h2.title {
   margin: 10px 0;

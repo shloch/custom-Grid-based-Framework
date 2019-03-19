@@ -462,74 +462,114 @@ body {
 }
 
 // Alignment
-.hbox.left,
+.hbox.left {
+  justify-content: start;
+}
+
 .vbox.left {
-  justify-items: left;
+  align-content: start;
 }
 
-.hbox.h-center,
+.hbox.h-center {
+  justify-content: center;
+}
+
 .vbox.h-center {
-  justify-items: center;
-}
-
-.hbox.right,
-.vbox.right {
-  justify-items: right;
-}
-
-.hbox.top,
-.vbox.top {
-  align-items: start;
-}
-
-.hbox.v-center,
-.vbox.v-center {
   align-items: center;
 }
 
-.hbox.bottom,
-.vbox.bottom {
-  align-items: end;
+.hbox.right {
+  justify-content: end;
 }
 
-.hbox.center,
+.vbox.right {
+  align-content: end;
+}
+
+.hbox.top {
+  align-content: start;
+}
+
+.vbox.top {
+  justify-content: start;
+}
+
+.hbox.v-center {
+  align-content: center;
+}
+
+.vbox.v-center {
+  justify-content: center;
+}
+
+.hbox.bottom {
+  align-content: end;
+}
+
+.vbox.bottom {
+  justify-content: end;
+}
+
+.hbox.center {
+  align-content: center;
+  justify-content: center;
+}
+
 .vbox.center {
   align-items: center;
-  justify-items: center;
+  justify-content: center;
 }
 
-.hbox>*.left,
-.vbox>*.left {
-  justify-self: left;
+.hbox>.left:not(.hbox):not(.vbox) {
+  justify-self: start;
 }
 
-.hbox>*.h-center,
-.vbox>*.h-center {
-  justify-self: center;
-}
-
-.hbox>*.right,
-.vbox>*.right {
-  justify-self: right;
-}
-
-.hbox>*.top,
-.vbox>*.top {
+.vbox>.left:not(.hbox):not(.vbox) {
   align-self: start;
 }
 
-.hbox>*.v-center,
-.vbox>*.v-center {
+.hbox>.h-center:not(.hbox):not(.vbox) {
+  justify-self: center;
+}
+
+.vbox>.h-center:not(.hbox):not(.vbox) {
   align-self: center;
 }
 
-.hbox>*.bottom,
-.vbox>*.bottom {
+.hbox>.right:not(.hbox):not(.vbox) {
+  justify-self: end;
+}
+
+.vbox>.right:not(.hbox):not(.vbox) {
   align-self: end;
 }
 
-.hbox>*.center,
-.vbox>*.center {
+.hbox>.top:not(.hbox):not(.vbox) {
+  align-self: start;
+}
+
+.vbox>.top:not(.hbox):not(.vbox) {
+  justify-self: start;
+}
+
+.hbox>.v-center:not(.hbox):not(.vbox) {
+  align-self: center;
+}
+
+.vbox>.v-center:not(.hbox):not(.vbox) {
+  justify-self: center;
+}
+
+.hbox>.bottom:not(.hbox):not(.vbox) {
+  align-self: end;
+}
+
+.vbox>.bottom:not(.hbox):not(.vbox) {
+  justify-self: end;
+}
+
+.hbox>.center:not(.hbox):not(.vbox),
+.vbox>.center:not(.hbox):not(.vbox) {
   align-self: center;
   justify-self: center;
 }

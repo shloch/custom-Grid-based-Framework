@@ -12,10 +12,26 @@
   <link rel="stylesheet" href="assets/styles/tailor.css" />
   <link rel="stylesheet" href="assets/styles/main.css" />
   <title>custom-Grid-based-Framework</title>
+  <style>
+    .vbox>div {
+      height: 50px;
+      max-height: 50px;
+      border: 1px solid #567;
+    }
+
+    div.vbox {
+      height: 200px;
+      border: 1px solid red;
+    }
+  </style>
 </head>
 
 <body>
-
+  <div class="vbox v-center">
+    <div class="ds-5">1st</div>
+    <div class="">2nd</div>
+    <div class="ds-3">3rd</div>
+  </div>
 </body>
 
 </html>
