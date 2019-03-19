@@ -3,17 +3,83 @@ body {
   font-family: Montserrat; }
 
 #global-community {
+  margin: auto;
   padding: 20px;
-  width: 1100px;
-  margin: auto; }
+  width: 1140px;
+  background: #fff;
+  transform: skewY(-9deg); }
+  #global-community > * {
+    transform: skewY(9deg); }
   #global-community > .title {
+    color: #3e396b;
     text-align: center;
     background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com.svg) top left/100% 100% no-repeat; }
-  #global-community > .map > img {
-    width: 100%; }
-  #global-community p {
-    line-height: 1.5;
+  #global-community > .map {
+    margin: 50px 0; }
+    #global-community > .map > img {
+      width: 100%; }
+  #global-community #testimonials {
+    margin-bottom: 50px; }
+    #global-community #testimonials > .card {
+      font-size: 14px;
+      max-width: 316px;
+      position: relative;
+      background: #f9fafd;
+      padding: 26px 28px 15px 70px;
+      box-shadow: 0 30px 30px -15px #eee; }
+      #global-community #testimonials > .card > .picture {
+        top: 15px;
+        left: -25px;
+        position: absolute;
+        background-repeat: no-repeat; }
+        #global-community #testimonials > .card > .picture > img {
+          transform: translate(-10px, 10px); }
+      #global-community #testimonials > .card:nth-of-type(1) > .picture {
+        background-image: url(https://www.microverse.org/img/oval-3.svg); }
+      #global-community #testimonials > .card:nth-of-type(2) {
+        margin: 0 70px; }
+        #global-community #testimonials > .card:nth-of-type(2) > .picture {
+          background-size: 100% 100%;
+          background-image: url(https://www.microverse.org/img/rectangle-8.svg); }
+          #global-community #testimonials > .card:nth-of-type(2) > .picture > img {
+            transform: translate(-20px, 7px); }
+      #global-community #testimonials > .card:nth-of-type(3) > .picture {
+        background-image: url(https://www.microverse.org/img/triangle-3.svg); }
+      #global-community #testimonials > .card > p:first-of-type {
+        font-style: italic; }
+      #global-community #testimonials > .card > p:nth-of-type(2) {
+        color: #3e396b;
+        margin-bottom: 0;
+        font-weight: 900; }
+      #global-community #testimonials > .card > p:nth-of-type(3) {
+        color: #adadad;
+        margin-top: 0; }
+      #global-community #testimonials > .card > .quotation-mark {
+        float: left;
+        height: 50px;
+        color: #e7e7e7;
+        margin: -35px 0 0 -35px;
+        font: normal 70px "Lucida Grande", "Lucida Sans Unicode", sans-serif; }
+  #global-community > p {
+    font-size: 20px;
+    color: #636c98;
+    line-height: 1.65;
     text-align: center; }
+  #global-community #community-testimonials {
+    margin-top: 100px;
+    position: relative;
+    transform: skewY(0deg); }
+    #global-community #community-testimonials > div {
+      transform: skewY(0deg); }
+      #global-community #community-testimonials > div:nth-of-type(odd) {
+        padding-right: 50px; }
+      #global-community #community-testimonials > div:nth-of-type(even) {
+        padding-left: 50px; }
+      #global-community #community-testimonials > div:nth-of-type(1), #global-community #community-testimonials > div:nth-of-type(4) {
+        background: #f8faff; }
+      #global-community #community-testimonials > div > div {
+        padding: 10px 0;
+        transform: skewY(9deg) translateY(40px); }
 
 h2.title {
   margin: 10px 0;
@@ -21,24 +87,45 @@ h2.title {
   padding: 17px 100px;
   font-family: Domine; }
 
-#founder-story > div:last-of-type {
-  text-align: right; }
-#founder-story .title {
-  display: inline-block;
-  background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com_5.svg) top left/100% 100% no-repeat; }
+#founder-story {
+  transform: skewY(-9deg);
+  background: #f7f5ee; }
+  #founder-story > * {
+    transform: skewY(9deg); }
+  #founder-story > div:last-of-type {
+    text-align: right; }
+  #founder-story .title {
+    display: inline-block;
+    background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com_5.svg) top left/100% 100% no-repeat; }
 
 #tuition {
-  text-align: center; }
+  text-align: center;
+  position: relative; }
+  #tuition::after {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    content: "";
+    margin: auto;
+    height: 500px;
+    display: block;
+    position: absolute;
+    transform: skewY(-9deg);
+    background: #f8faff; }
+  #tuition > * {
+    z-index: 100; }
   #tuition .title {
     background: url(https://www.microverse.org/img/path-5185_2.svg) top left/100% 100% no-repeat; }
 
 #application-process {
-  text-align: center; }
+  text-align: center;
+  background: #f8faff; }
   #application-process .title {
     background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com_4.svg) top left/100% 100% no-repeat; }
 
 #faq {
-  text-align: center; }
+  text-align: center;
+  background: #fff; }
   #faq .title {
     background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com_5.svg) top left/100% 100% no-repeat; }
 

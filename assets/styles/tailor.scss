@@ -14,16 +14,6 @@ body {
   >* {
     flex: auto;
   }
-}
-
-// VBOX
-.vbox {
-  flex-flow: column wrap;
-}
-
-// HBOX,
-.hbox {
-  flex-flow: row wrap;
 
   >.ds-1 {
     width: 8.3333%;
@@ -84,6 +74,16 @@ body {
     width: 100%;
     max-width: 100%;
   }
+}
+
+// HBOX,
+.hbox {
+  flex-flow: row wrap;
+}
+
+// VBOX
+.vbox {
+  flex-flow: column wrap;
 }
 
 // EXTRA SMALL SCREEN SIZE
