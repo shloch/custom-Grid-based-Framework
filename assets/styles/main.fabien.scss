@@ -1,28 +1,144 @@
 @import url('https://fonts.googleapis.com/css?family=Domine|Montserrat');
+@import '_colors';
 
 body {
   font-family: Montserrat;
 }
 
 #global-community {
-  padding: 20px;
-  width: 1100px;
   margin: auto;
+  padding: 20px;
+  width: 1140px;
+  background: $white;
+  transform: skewY(-9deg);
+
+  >* {
+    transform: skewY(9deg);
+  }
 
   >.title {
+    color: $dusk;
     text-align: center;
     background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com.svg) top left/100% 100% no-repeat;
   }
 
-  >.map>img {
-    width: 100%;
+  >.map {
+    margin: 50px 0;
+
+    >img {
+      width: 100%;
+    }
   }
 
-  #testimonials>.card {}
+  #testimonials {
+    margin-bottom: 50px;
 
-  p {
-    line-height: 1.5;
+    >.card {
+      font-size: 14px;
+      max-width: 316px;
+      position: relative;
+      background: #f9fafd;
+      padding: 26px 28px 15px 70px;
+      box-shadow: 0 30px 30px -15px #eee;
+
+      >.picture {
+        top: 15px;
+        left: -25px;
+        position: absolute;
+        background-repeat: no-repeat;
+
+        >img {
+          transform: translate(-10px, 10px);
+        }
+      }
+
+      &:nth-of-type(1) {
+        >.picture {
+          background-image: url(https://www.microverse.org/img/oval-3.svg);
+        }
+      }
+
+      &:nth-of-type(2) {
+        margin: 0 70px;
+
+        >.picture {
+          background-size: 100% 100%;
+          background-image: url(https://www.microverse.org/img/rectangle-8.svg);
+
+          >img {
+            transform: translate(-20px, 7px);
+          }
+        }
+      }
+
+      &:nth-of-type(3) {
+        >.picture {
+          background-image: url(https://www.microverse.org/img/triangle-3.svg);
+        }
+      }
+
+      >p:first-of-type {
+        font-style: italic;
+      }
+
+      >p:nth-of-type(2) {
+        color: $dusk;
+        margin-bottom: 0;
+        font-weight: 900;
+      }
+
+      >p:nth-of-type(3) {
+        color: #adadad;
+        margin-top: 0;
+      }
+
+      >.quotation-mark {
+        float: left;
+        height: 50px;
+        color: #e7e7e7;
+        margin: -35px 0 0 -35px;
+        font: normal 70px "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+      }
+    }
+  }
+
+  >p {
+    font-size: 20px;
+    color: #636c98;
+    line-height: 1.65;
     text-align: center;
+  }
+
+  #community-testimonials {
+    margin-top: 100px;
+    position: relative;
+    transform: skewY(0deg);
+
+    >div {
+      transform: skewY(0deg);
+
+      &:nth-of-type(odd) {
+        padding-right: 50px;
+      }
+
+      &:nth-of-type(even) {
+        padding-left: 50px;
+      }
+
+      &:nth-of-type(1),
+      &:nth-of-type(4) {
+        background: $very-light-blue;
+      }
+
+      >div {
+        padding: 10px 0;
+        transform: skewY(9deg) translateY(40px);
+
+        .logo {
+          // max-width: 90%;
+        }
+      }
+    }
   }
 }
 
@@ -34,6 +150,13 @@ h2.title {
 }
 
 #founder-story {
+  transform: skewY(-9deg);
+  background: #f7f5ee;
+
+  >* {
+    transform: skewY(9deg);
+  }
+
   >div:last-of-type {
     text-align: right;
   }
@@ -46,6 +169,24 @@ h2.title {
 
 #tuition {
   text-align: center;
+  position: relative;
+
+  &::after {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    content: "";
+    margin: auto;
+    height: 500px;
+    display: block;
+    position: absolute;
+    transform: skewY(-9deg);
+    background: $very-light-blue;
+  }
+
+  >* {
+    z-index: 100;
+  }
 
   .title {
     background: url(https://www.microverse.org/img/path-5185_2.svg) top left/100% 100% no-repeat;
@@ -54,6 +195,7 @@ h2.title {
 
 #application-process {
   text-align: center;
+  background: $very-light-blue;
 
   .title {
     background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com_4.svg) top left/100% 100% no-repeat;
@@ -62,6 +204,7 @@ h2.title {
 
 #faq {
   text-align: center;
+  background: $white;
 
   .title {
     background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com_5.svg) top left/100% 100% no-repeat;
@@ -71,7 +214,7 @@ h2.title {
 footer {
   color: #fff;
   position: relative;
-  background: #3e396b;
+  background: $dusk;
 
   >div:first-of-type img {
     width: 24px;
