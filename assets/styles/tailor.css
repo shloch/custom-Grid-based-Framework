@@ -18,7 +18,7 @@ body {
   .hbox > .ds-2,
   .vbox > .ds-2 {
     width: 16.6666%;
-    max-width: 1.6666%; }
+    max-width: 16.6666%; }
   .hbox > .ds-3,
   .vbox > .ds-3 {
     width: 25%;
@@ -73,8 +73,8 @@ body {
     max-width: 8.3333%; }
   .hbox > .xs-2,
   .vbox > .xs-2 {
-    width: 1.6666%;
-    max-width: 1.6666%; }
+    width: 16.6666%;
+    max-width: 16.6666%; }
   .hbox > .xs-3,
   .vbox > .xs-3 {
     width: 25%;
@@ -128,8 +128,8 @@ body {
     max-width: 8.3333%; }
   .hbox > .sm-2,
   .vbox > .sm-2 {
-    width: 1.6666%;
-    max-width: 1.6666%; }
+    width: 16.6666%;
+    max-width: 16.6666%; }
   .hbox > .sm-3,
   .vbox > .sm-3 {
     width: 25%;
@@ -183,8 +183,8 @@ body {
     max-width: 8.3333%; }
   .hbox > .md-2,
   .vbox > .md-2 {
-    width: 1.6666%;
-    max-width: 1.6666%; }
+    width: 16.6666%;
+    max-width: 16.6666%; }
   .hbox > .md-3,
   .vbox > .md-3 {
     width: 25%;
@@ -238,8 +238,8 @@ body {
     max-width: 8.3333%; }
   .hbox > .lg-2,
   .vbox > .lg-2 {
-    width: 1.6666%;
-    max-width: 1.6666%; }
+    width: 166.6666%;
+    max-width: 166.6666%; }
   .hbox > .lg-3,
   .vbox > .lg-3 {
     width: 25%;
@@ -293,8 +293,8 @@ body {
     max-width: 8.3333%; }
   .hbox > .xl-2,
   .vbox > .xl-2 {
-    width: 1.6666%;
-    max-width: 1.6666%; }
+    width: 16.6666%;
+    max-width: 16.6666%; }
   .hbox > .xl-3,
   .vbox > .xl-3 {
     width: 25%;
@@ -354,31 +354,31 @@ body {
   align-items: center; }
 
 .hbox.right {
-  justify-content: end; }
+  justify-content: flex-end; }
 
 .vbox.right {
-  align-content: end; }
+  align-content: flex-end; }
 
 .hbox.top {
-  align-content: start; }
+  align-items: start; }
 
 .vbox.top {
   justify-content: start; }
 
 .hbox.v-center {
-  align-content: center; }
+  align-items: center; }
 
 .vbox.v-center {
   justify-content: center; }
 
 .hbox.bottom {
-  align-content: end; }
+  align-items: flex-end; }
 
 .vbox.bottom {
-  justify-content: end; }
+  justify-content: flex-end; }
 
 .hbox.center {
-  align-content: center;
+  align-items: center;
   justify-content: center; }
 
 .vbox.center {
@@ -398,13 +398,14 @@ body {
   align-self: center; }
 
 .hbox > .right:not(.hbox):not(.vbox) {
-  justify-self: end; }
+  justify-self: flex-end; }
 
 .vbox > .right:not(.hbox):not(.vbox) {
-  align-self: end; }
+  align-self: flex-end; }
 
 .hbox > .top:not(.hbox):not(.vbox) {
-  align-self: start; }
+  align-self: start;
+  padding: 10px; }
 
 .vbox > .top:not(.hbox):not(.vbox) {
   justify-self: start; }
@@ -416,10 +417,10 @@ body {
   justify-self: center; }
 
 .hbox > .bottom:not(.hbox):not(.vbox) {
-  align-self: end; }
+  align-self: flex-end; }
 
 .vbox > .bottom:not(.hbox):not(.vbox) {
-  justify-self: end; }
+  justify-self: flex-end; }
 
 .hbox > .center:not(.hbox):not(.vbox),
 .vbox > .center:not(.hbox):not(.vbox) {

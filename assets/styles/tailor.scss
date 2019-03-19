@@ -22,7 +22,7 @@ body {
 
   >.ds-2 {
     width: 16.6666%;
-    max-width: 1.6666%;
+    max-width: 16.6666%;
   }
 
   >.ds-3 {
@@ -97,8 +97,8 @@ body {
     }
 
     >.xs-2 {
-      width: 1.6666%;
-      max-width: 1.6666%;
+      width: 16.6666%;
+      max-width: 16.6666%;
     }
 
     >.xs-3 {
@@ -172,8 +172,8 @@ body {
     }
 
     >.sm-2 {
-      width: 1.6666%;
-      max-width: 1.6666%;
+      width: 16.6666%;
+      max-width: 16.6666%;
     }
 
     >.sm-3 {
@@ -247,8 +247,8 @@ body {
     }
 
     >.md-2 {
-      width: 1.6666%;
-      max-width: 1.6666%;
+      width: 16.6666%;
+      max-width: 16.6666%;
     }
 
     >.md-3 {
@@ -322,8 +322,8 @@ body {
     }
 
     >.lg-2 {
-      width: 1.6666%;
-      max-width: 1.6666%;
+      width: 166.6666%;
+      max-width: 166.6666%;
     }
 
     >.lg-3 {
@@ -397,8 +397,8 @@ body {
     }
 
     >.xl-2 {
-      width: 1.6666%;
-      max-width: 1.6666%;
+      width: 16.6666%;
+      max-width: 16.6666%;
     }
 
     >.xl-3 {
@@ -479,15 +479,15 @@ body {
 }
 
 .hbox.right {
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .vbox.right {
-  align-content: end;
+  align-content: flex-end;
 }
 
 .hbox.top {
-  align-content: start;
+  align-items: start;
 }
 
 .vbox.top {
@@ -495,7 +495,7 @@ body {
 }
 
 .hbox.v-center {
-  align-content: center;
+  align-items: center;
 }
 
 .vbox.v-center {
@@ -503,15 +503,15 @@ body {
 }
 
 .hbox.bottom {
-  align-content: end;
+  align-items: flex-end;
 }
 
 .vbox.bottom {
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .hbox.center {
-  align-content: center;
+  align-items: center;
   justify-content: center;
 }
 
@@ -537,15 +537,16 @@ body {
 }
 
 .hbox>.right:not(.hbox):not(.vbox) {
-  justify-self: end;
+  justify-self: flex-end;
 }
 
 .vbox>.right:not(.hbox):not(.vbox) {
-  align-self: end;
+  align-self: flex-end;
 }
 
 .hbox>.top:not(.hbox):not(.vbox) {
   align-self: start;
+  padding: 10px;
 }
 
 .vbox>.top:not(.hbox):not(.vbox) {
@@ -561,11 +562,11 @@ body {
 }
 
 .hbox>.bottom:not(.hbox):not(.vbox) {
-  align-self: end;
+  align-self: flex-end;
 }
 
 .vbox>.bottom:not(.hbox):not(.vbox) {
-  justify-self: end;
+  justify-self: flex-end;
 }
 
 .hbox>.center:not(.hbox):not(.vbox),
