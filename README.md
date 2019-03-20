@@ -13,7 +13,7 @@ That means in a single row, you can build a maximum of 12-equallly-calculated, r
 
 The basic formular for using the framework is demonstrated below
 
-```
+```HTML
 <div class="hbox">
     <div class="ds-4"></div>
     <div class="ds-4"></div>
@@ -25,16 +25,16 @@ The example above is an equal-sized 3-block horizontal grid. The class names of 
 
 The framework has been built with media queries in mind for responsiveness with 4 breakpoints denoted with the following short caracters.
 
-sm-X : small screens with width between 351px - 768px
-md-X : medium screens with width between 768px - 992px
-lg-X : large screens with width between 993px - 1250px
-xl-X : extra large screens with minimum width of  1251px
+sm-X : small screens with width between 351px - 768px  
+md-X : medium screens with width between 768px - 992px  
+lg-X : large screens with width between 993px - 1250px  
+xl-X : extra large screens with minimum width of  1251px  
 
 X in these scenarios is also in the interval ==> (0 < X < 13)
 
 The basic example above can be made responsive on medium and small screens as follows
 
-```
+```HTML
 <div class="hbox">
     <div class="ds-4 md-6 sm-12"></div>
     <div class="ds-4 md-6 sm-12"></div>
@@ -49,13 +49,13 @@ Explanation : from above example, we have 3 equally split blocks placed horizont
 
 Additionally, you can also hide blocks you wish at particular breakpoints by using following self-explanatory classes.
 
-sm-none : hide blocks at small screens with width between 351px - 768px
-md-none : hide blocks at medium screens with width between 768px - 992px
-lg-none : hide blocks at large screens with width between 993px - 1250px
-xl-none : hide blocks at extra large screens with minimum width of  1251px
+sm-none : hide blocks at small screens with width between 351px - 768px  
+md-none : hide blocks at medium screens with width between 768px - 992px  
+lg-none : hide blocks at large screens with width between 993px - 1250px  
+xl-none : hide blocks at extra large screens with minimum width of  1251px  
 
 EXAMPLE :
-```
+```HTML
 <div class="hbox">
     <div class="ds-8 sm-12"></div>
     <div class="ds-4 sm-none"></div>
