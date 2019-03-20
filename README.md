@@ -13,7 +13,7 @@ That means in a single row, you can build a maximum of 12-equallly-calculated, r
 
 The basic formular for using the framework is demonstrated below
 
-```
+```HTML
 <div class="hbox">
     <div class="ds-4"></div>
     <div class="ds-4"></div>
@@ -34,7 +34,7 @@ X in these scenarios is also in the interval ==> (0 < X < 13)
 
 The basic example above can be made responsive on medium and small screens as follows
 
-```
+```HTML
 <div class="hbox">
     <div class="ds-4 md-6 sm-12"></div>
     <div class="ds-4 md-6 sm-12"></div>
