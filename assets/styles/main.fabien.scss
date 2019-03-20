@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Domine|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Domine|Montserrat|Maven+Pro');
 @import '_colors';
 
 body {
@@ -516,25 +516,124 @@ h2.title {
   background: $white;
 
   .title {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 170px;
+    padding-right: 170px;
+    margin: 100px 0 20px;
     background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com_5.svg) top left/100% 100% no-repeat;
+  }
+
+  >p {
+    font-size: 20px;
+    margin: 0 0 50px;
+    color: #636c98;
+    line-height: 1.65;
+    text-align: center;
+  }
+
+  .item {
+    text-align: left;
+
+    h3 {
+      color: $dusk;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.83;
+      margin-bottom: 10px;
+      font-family: "Avenir Next", "Nunito", sans-serif;
+    }
+
+    p {
+      font-size: 16px;
+      color: #636c98;
+      line-height: 2.06;
+
+      a {
+        color: $tealish;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .yellow-button {
+    width: 333px;
+    font-size: 18px;
+
+    &:first-of-type {
+      margin-top: 130px;
+      margin-bottom: 20px;
+    }
+
+    &:last-of-type {
+      margin-bottom: 150px;
+    }
   }
 }
 
 footer {
   color: #fff;
-  position: relative;
+  padding: 50px 0;
   background: $dusk;
+  position: relative;
 
-  >div:first-of-type img {
-    width: 24px;
+  h3 {
+    font-size: 22px;
+    margin: 13px 0 40px;
+    font-family: Domine;
   }
 
-  ul {
+  .logo {
+    color: #fff;
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Maven Pro";
+  }
+
+  .copy {
+    margin-bottom: 40px;
+  }
+
+  >div:first-of-type {
+    a {
+      margin-right: 20px;
+      text-decoration: none;
+
+      >img {
+        width: 24px;
+      }
+    }
+  }
+
+  .list {
     padding: 0;
     list-style: none;
+
+    a {
+      font-size: 16px;
+      color: #d2fff8;
+      font-weight: 600;
+      line-height: 2.19;
+      text-decoration: none;
+    }
   }
 
   >img {
     position: absolute;
   }
+}
+
+.yellow-button {
+  padding: 15px;
+  color: #3e3e3e;
+  font-weight: 600;
+  border-radius: 4px;
+  background: #ffd540;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.57);
 }
