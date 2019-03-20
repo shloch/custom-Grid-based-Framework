@@ -40,11 +40,11 @@ The second example gives a 3/12 percentage width of the first and third blocks. 
 
 The framework has been built with media queries in mind for responsiveness with 5 breakpoints denoted by the following short caracters.
 
-xs-X : extra small screens with width under 575px
-sm-X : small screens with width under 768px
-md-X : medium screens with width under 992px
-lg-X : large screens with width under 1200px
-xl-X : extra large screens with width upper 1201px
+xs-X : extra small screens with width under 575px  
+sm-X : small screens with width under 768px   
+md-X : medium screens with width under 992px  
+lg-X : large screens with width under 1200px  
+xl-X : extra large screens with width upper 1201px  
 
 All of these conditions include their threshold
 
@@ -67,11 +67,11 @@ Explanation : From the above example, we have 3 equally split blocks placed hori
 
 Additionally, you can also remove blocks you wish at particular breakpoints by using the following self-explanatory classes.
 
-xs-none : hide blocks at extra small screens
-sm-none : hide blocks at small screens
-md-none : hide blocks at medium screens
-lg-none : hide blocks at large screens
-xl-none : hide blocks at extra large screens
+xs-none : hide blocks at extra small screens  
+sm-none : hide blocks at small screens  
+md-none : hide blocks at medium screens  
+lg-none : hide blocks at large screens  
+xl-none : hide blocks at extra large screens  
 
 and make them reappear as flex item by changing "none" to "flex".
 
