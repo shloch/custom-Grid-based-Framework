@@ -33,7 +33,7 @@ Or
 </div>
 ```
 
-The first example above is an equal-sized 3-blocks horizontal grid. The class names of the children blocks can be of format "S-X" (S in (ds, xs, sm, md, lg, xl) and 0 < X (integer) < 13) among many others. If the sum of different X exceeds 12 then the exceedings blocks will wrap to the next line or column depending on container type (hbox or vbox). All flex blocks should be wrapped in a parent block with a class either "hbox" or "vbox".
+The first example above is an equal-sized 3-blocks horizontal grid. The class names of the children blocks can be of format "S-X" (S in [ds, xs, sm, md, lg, xl] and 0 < X (integer) < 13) among many others. If the sum of different X exceeds 12 then the exceedings blocks will wrap to the next line or column depending on container type (hbox or vbox). All flex blocks should be wrapped in a parent block with a class either "hbox" or "vbox".
 N.B: ds means default-size here. So when building your project you don't have to worry about targetting a specif screen size. You just start with your laptop size and make adjustment for responsiveness after.
 
 The second example gives a 3/12 percentage width of the first and third blocks. So the middle one will take all the available space. It gives the same result of having add "ds-6" class to it.
