@@ -75,7 +75,15 @@ body {
     max-width: 100%;
   }
 
+  >.ds-none {
+    display: none;
+  }
+
   // Left Spacing
+  >.ds-lgap-0 {
+    margin-left: 0%;
+  }
+
   >.ds-lgap-1 {
     margin-left: 8.3333%;
   }
@@ -125,6 +133,10 @@ body {
   }
 
   // Right Spacing
+  >.ds-rgap-0 {
+    margin-right: 0%;
+  }
+
   >.ds-rgap-1 {
     margin-right: 8.3333%;
   }
@@ -185,7 +197,7 @@ body {
 }
 
 // EXTRA SMALL SCREEN SIZE
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 575px) {
 
   .hbox,
   .vbox {
@@ -258,6 +270,10 @@ body {
     }
 
     // Left Spacing
+    >.xs-lgap-0 {
+      margin-left: 0%;
+    }
+
     >.xs-lgap-1 {
       margin-left: 8.3333%;
     }
@@ -307,6 +323,10 @@ body {
     }
 
     // Right Spacing
+    >.xs-rgap-0 {
+      margin-right: 0%;
+    }
+
     >.xs-rgap-1 {
       margin-right: 8.3333%;
     }
@@ -358,7 +378,7 @@ body {
 }
 
 // SMALL SCREEN SIZE
-@media screen and (min-width: 351px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
   .hbox,
   .vbox {
@@ -431,6 +451,10 @@ body {
     }
 
     // Left Spacing
+    >.sm-lgap-0 {
+      margin-left: 0%;
+    }
+
     >.sm-lgap-1 {
       margin-left: 8.3333%;
     }
@@ -480,6 +504,10 @@ body {
     }
 
     // Right Spacing
+    >.sm-rgap-0 {
+      margin-right: 0%;
+    }
+
     >.sm-rgap-1 {
       margin-right: 8.3333%;
     }
@@ -531,7 +559,7 @@ body {
 }
 
 // MEDIUM SCREEN SIZE
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (max-width: 992px) {
 
   .hbox,
   .vbox {
@@ -604,6 +632,10 @@ body {
     }
 
     // Left Spacing
+    >.md-lgap-0 {
+      margin-left: 0%;
+    }
+
     >.md-lgap-1 {
       margin-left: 8.3333%;
     }
@@ -653,6 +685,10 @@ body {
     }
 
     // Right Spacing
+    >.md-rgap-0 {
+      margin-right: 0%;
+    }
+
     >.md-rgap-1 {
       margin-right: 8.3333%;
     }
@@ -704,7 +740,7 @@ body {
 }
 
 // LARGE SCREEN SIZE
-@media screen and (min-width: 993px) and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
 
   .hbox,
   .vbox {
@@ -777,6 +813,10 @@ body {
     }
 
     // Left Spacing
+    >.lg-lgap-0 {
+      margin-left: 0%;
+    }
+
     >.lg-lgap-1 {
       margin-left: 8.3333%;
     }
@@ -826,6 +866,10 @@ body {
     }
 
     // Right Spacing
+    >.lg-rgap-0 {
+      margin-right: 0%;
+    }
+
     >.lg-rgap-1 {
       margin-right: 8.3333%;
     }
@@ -877,7 +921,7 @@ body {
 }
 
 // EXTRA LARGE SCREEN SIZE
-@media screen and (min-width: 1251px) {
+@media screen and (min-width: 1201px) {
 
   .hbox,
   .vbox {
@@ -950,6 +994,10 @@ body {
     }
 
     // Left Spacing
+    >.xl-lgap-0 {
+      margin-left: 0%;
+    }
+
     >.xl-lgap-1 {
       margin-left: 8.3333%;
     }
@@ -999,6 +1047,10 @@ body {
     }
 
     // Right Spacing
+    >.xl-rgap-0 {
+      margin-right: 0%;
+    }
+
     >.xl-rgap-1 {
       margin-right: 8.3333%;
     }
@@ -1071,7 +1123,7 @@ body {
 }
 
 .vbox.right {
-  align-content: flex-end;
+  align-items: flex-end;
 }
 
 .hbox.top {
@@ -1079,7 +1131,7 @@ body {
 }
 
 .vbox.top {
-  justify-content: start;
+  justify-items: flex-start;
 }
 
 .hbox.v-center {

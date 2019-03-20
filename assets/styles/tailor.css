@@ -59,6 +59,12 @@ body {
   .vbox > .ds-12 {
     width: 100%;
     max-width: 100%; }
+  .hbox > .ds-none,
+  .vbox > .ds-none {
+    display: none; }
+  .hbox > .ds-lgap-0,
+  .vbox > .ds-lgap-0 {
+    margin-left: 0%; }
   .hbox > .ds-lgap-1,
   .vbox > .ds-lgap-1 {
     margin-left: 8.3333%; }
@@ -95,6 +101,9 @@ body {
   .hbox > .ds-lgap-12,
   .vbox > .ds-lgap-12 {
     margin-left: 100%; }
+  .hbox > .ds-rgap-0,
+  .vbox > .ds-rgap-0 {
+    margin-right: 0%; }
   .hbox > .ds-rgap-1,
   .vbox > .ds-rgap-1 {
     margin-right: 8.3333%; }
@@ -138,7 +147,7 @@ body {
 .vbox {
   flex-flow: column wrap; }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 575px) {
   .hbox > .xs-1,
   .vbox > .xs-1 {
     width: 8.3333%;
@@ -193,6 +202,9 @@ body {
   .hbox > .xs-flex,
   .vbox > .xs-flex {
     display: flex; }
+  .hbox > .xs-lgap-0,
+  .vbox > .xs-lgap-0 {
+    margin-left: 0%; }
   .hbox > .xs-lgap-1,
   .vbox > .xs-lgap-1 {
     margin-left: 8.3333%; }
@@ -229,6 +241,9 @@ body {
   .hbox > .xs-lgap-12,
   .vbox > .xs-lgap-12 {
     margin-left: 100%; }
+  .hbox > .xs-rgap-0,
+  .vbox > .xs-rgap-0 {
+    margin-right: 0%; }
   .hbox > .xs-rgap-1,
   .vbox > .xs-rgap-1 {
     margin-right: 8.3333%; }
@@ -265,7 +280,7 @@ body {
   .hbox > .xs-rgap-12,
   .vbox > .xs-rgap-12 {
     margin-right: 100%; } }
-@media screen and (min-width: 351px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .hbox > .sm-1,
   .vbox > .sm-1 {
     width: 8.3333%;
@@ -320,6 +335,9 @@ body {
   .hbox > .sm-flex,
   .vbox > .sm-flex {
     display: flex; }
+  .hbox > .sm-lgap-0,
+  .vbox > .sm-lgap-0 {
+    margin-left: 0%; }
   .hbox > .sm-lgap-1,
   .vbox > .sm-lgap-1 {
     margin-left: 8.3333%; }
@@ -356,6 +374,9 @@ body {
   .hbox > .sm-lgap-12,
   .vbox > .sm-lgap-12 {
     margin-left: 100%; }
+  .hbox > .sm-rgap-0,
+  .vbox > .sm-rgap-0 {
+    margin-right: 0%; }
   .hbox > .sm-rgap-1,
   .vbox > .sm-rgap-1 {
     margin-right: 8.3333%; }
@@ -392,7 +413,7 @@ body {
   .hbox > .sm-rgap-12,
   .vbox > .sm-rgap-12 {
     margin-right: 100%; } }
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .hbox > .md-1,
   .vbox > .md-1 {
     width: 8.3333%;
@@ -447,6 +468,9 @@ body {
   .hbox > .md-flex,
   .vbox > .md-flex {
     display: flex; }
+  .hbox > .md-lgap-0,
+  .vbox > .md-lgap-0 {
+    margin-left: 0%; }
   .hbox > .md-lgap-1,
   .vbox > .md-lgap-1 {
     margin-left: 8.3333%; }
@@ -483,6 +507,9 @@ body {
   .hbox > .md-lgap-12,
   .vbox > .md-lgap-12 {
     margin-left: 100%; }
+  .hbox > .md-rgap-0,
+  .vbox > .md-rgap-0 {
+    margin-right: 0%; }
   .hbox > .md-rgap-1,
   .vbox > .md-rgap-1 {
     margin-right: 8.3333%; }
@@ -519,7 +546,7 @@ body {
   .hbox > .md-rgap-12,
   .vbox > .md-rgap-12 {
     margin-right: 100%; } }
-@media screen and (min-width: 993px) and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
   .hbox > .lg-1,
   .vbox > .lg-1 {
     width: 8.3333%;
@@ -574,6 +601,9 @@ body {
   .hbox > .lg-flex,
   .vbox > .lg-flex {
     display: flex; }
+  .hbox > .lg-lgap-0,
+  .vbox > .lg-lgap-0 {
+    margin-left: 0%; }
   .hbox > .lg-lgap-1,
   .vbox > .lg-lgap-1 {
     margin-left: 8.3333%; }
@@ -610,6 +640,9 @@ body {
   .hbox > .lg-lgap-12,
   .vbox > .lg-lgap-12 {
     margin-left: 100%; }
+  .hbox > .lg-rgap-0,
+  .vbox > .lg-rgap-0 {
+    margin-right: 0%; }
   .hbox > .lg-rgap-1,
   .vbox > .lg-rgap-1 {
     margin-right: 8.3333%; }
@@ -646,7 +679,7 @@ body {
   .hbox > .lg-rgap-12,
   .vbox > .lg-rgap-12 {
     margin-right: 100%; } }
-@media screen and (min-width: 1251px) {
+@media screen and (min-width: 1201px) {
   .hbox > .xl-1,
   .vbox > .xl-1 {
     width: 8.3333%;
@@ -701,6 +734,9 @@ body {
   .hbox > .xl-flex,
   .vbox > .xl-flex {
     display: flex; }
+  .hbox > .xl-lgap-0,
+  .vbox > .xl-lgap-0 {
+    margin-left: 0%; }
   .hbox > .xl-lgap-1,
   .vbox > .xl-lgap-1 {
     margin-left: 8.3333%; }
@@ -737,6 +773,9 @@ body {
   .hbox > .xl-lgap-12,
   .vbox > .xl-lgap-12 {
     margin-left: 100%; }
+  .hbox > .xl-rgap-0,
+  .vbox > .xl-rgap-0 {
+    margin-right: 0%; }
   .hbox > .xl-rgap-1,
   .vbox > .xl-rgap-1 {
     margin-right: 8.3333%; }
@@ -789,13 +828,13 @@ body {
   justify-content: flex-end; }
 
 .vbox.right {
-  align-content: flex-end; }
+  align-items: flex-end; }
 
 .hbox.top {
   align-items: start; }
 
 .vbox.top {
-  justify-content: start; }
+  justify-items: flex-start; }
 
 .hbox.v-center {
   align-items: center; }
