@@ -17,6 +17,12 @@ body {
     color: $dusk;
     text-align: center;
     background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com.svg) top left/100% 100% no-repeat;
+
+    @media screen and (max-width: 575px) {
+      width: 90%;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
   }
 
   >.map {
@@ -28,11 +34,15 @@ body {
   }
 
   #testimonials {
-    margin-bottom: 50px;
+    margin: 50px 0;
 
-    >.card {
+    >div {
+      margin-bottom: 40px;
+      padding: 0 25px;
+    }
+
+    .card {
       font-size: 14px;
-      max-width: 316px;
       position: relative;
       background: #f9fafd;
       padding: 26px 28px 15px 70px;
@@ -56,7 +66,6 @@ body {
       }
 
       &:nth-of-type(2) {
-        margin: 0 60px;
 
         >.picture {
           background-size: 100% 100%;
@@ -112,12 +121,24 @@ body {
     position: relative;
     transform: skewY(0deg);
 
+    .order-4 {
+
+      @media screen and (max-width: 768px) {
+        order: 4;
+      }
+    }
+
     >.content {
       overflow: visible;
 
       >div {
         position: relative;
         transform: skewY(0deg);
+
+        @media screen and (max-width: 768px) {
+          padding: 0 10%;
+          text-align: center;
+        }
 
         &:nth-of-type(odd) {
           &::after {
@@ -168,17 +189,15 @@ body {
         }
 
         >a {
-          color: #3e3e3e;
-          font-weight: 600;
-          padding: 15px 40px;
-          border-radius: 4px;
+          width: 100%;
+          margin-top: 20px;
           margin-bottom: 140px;
-          background: #ffd540;
           display: inline-block;
-          text-decoration: none;
-          text-transform: uppercase;
-          box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.19);
-          text-shadow: 0 1px 1px rgba(255, 255, 255, 0.57);
+
+          @media screen and (max-width: 768px) {
+            width: auto;
+            margin-top: 40px;
+          }
         }
       }
 
@@ -210,8 +229,38 @@ h2.title {
 #founder-story {
   overflow: visible;
   margin-bottom: 170px;
-  transform: skewY(-9deg);
   background: #f7f5ee;
+  transform: skewY(-9deg);
+
+  .ariel-portrait {
+    text-align: center;
+
+    img {
+      max-height: 100%;
+
+      &.signature {
+        margin: auto;
+        display: block;
+        max-width: 150px;
+      }
+    }
+
+    >div>img {
+      flex-grow: 0;
+    }
+
+    @media screen and (max-width: 992px) {
+      height: 475px;
+    }
+
+    @media screen and (max-width: 768px) {
+      height: 400px;
+    }
+
+    @media screen and (max-width: 768px) {
+      order: 2;
+    }
+  }
 
   >.content {
     background: #f7f5ee;
@@ -222,20 +271,31 @@ h2.title {
       text-align: right;
       padding: 0 0 40px 40px;
 
+      @media screen and (max-width: 768px) {
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+      }
+
       >.title {
         color: #fff;
         font-size: 36px;
         padding-left: 55px;
         padding-right: 62px;
         margin-bottom: 30px;
-        display: inline-block;
         background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com_5.svg) top left/100% 100% no-repeat;
+
+        @media screen and (max-width: 575px) {
+          width: 90%;
+          padding-left: 15px;
+          padding-right: 15px;
+        }
       }
 
       >p {
+        color: $dusk;
         font-size: 20px;
         line-height: 1.65;
-        color: $dusk;
       }
     }
   }
@@ -266,6 +326,12 @@ h2.title {
     padding-left: 150px;
     padding-right: 150px;
     background: url(https://www.microverse.org/img/path-5185_2.svg) top left/100% 100% no-repeat;
+
+    @media screen and (max-width: 768px) {
+      width: 90%;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
   }
 
   >p {
@@ -315,6 +381,10 @@ h2.title {
       &#step-1,
       &#step-2 {
         position: absolute;
+
+        @media screen and (max-width: 768px) {
+          font-size: 14px;
+        }
       }
 
       &#step-1 {
@@ -346,6 +416,34 @@ h2.title {
   svg circle {
     fill: #3e396b;
   }
+
+  >img {
+    position: absolute;
+
+    @media screen and (max-height: 768px) {
+      opacity: 0.7;
+    }
+  }
+
+  #square-thingy-6 {
+    top: 264px;
+    right: 15.6vw;
+  }
+
+  #square-thingy-7 {
+    top: 645px;
+    left: 7.4vw;
+  }
+
+  #square-thingy-8 {
+    top: 978px;
+    right: 10.2vw;
+  }
+
+  #square-thingy-9 {
+    top: 1181px;
+    left: 12vw;
+  }
 }
 
 #application-process {
@@ -359,6 +457,12 @@ h2.title {
     text-align: center;
     margin: 115px 0 20px;
     background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com_4.svg) top left/100% 100% no-repeat;
+
+    @media screen and (max-width: 575px) {
+      width: 90%;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
   }
 
   >p {
@@ -375,7 +479,7 @@ h2.title {
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     grid-template-rows: repeat(2, auto);
-    grid-template-columns: repeat(4, min-content);
+    grid-template-columns: repeat(4, minmax(20%, 222px));
     grid-gap: 11px 12px;
     text-align: center;
     border-radius: 8px;
@@ -383,20 +487,30 @@ h2.title {
     position: relative;
     justify-content: center;
 
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+
     .header {
       margin: 0;
-      width: 222px;
       color: #fff;
+      display: flex;
       font-size: 18px;
       font-weight: 600;
       position: relative;
       text-align: center;
       border-radius: 8px;
       white-space: normal;
+      align-items: center;
       word-wrap: break-word;
+      justify-content: center;
       overflow-wrap: break-word;
       padding: 18px 24px 18px 30px;
       background-color: $purplish-blue;
+
+      @media screen and (max-width: 768px) {
+        margin-bottom: 10px;
+      }
 
       &:not(:first-of-type)::before {
         top: 0;
@@ -411,6 +525,10 @@ h2.title {
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
         border-left: 14px solid $white;
+
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
       }
 
       &:not(:last-of-type)::after {
@@ -426,6 +544,10 @@ h2.title {
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
         border-left: 14px solid $purplish-blue;
+
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
       }
 
       svg {
@@ -433,6 +555,13 @@ h2.title {
         left: -8px;
         position: absolute;
         filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+
+        @media screen and (max-width: 768px) {
+          top: 0;
+          bottom: 0;
+          left: 15px;
+          margin: auto;
+        }
 
         circle {
           fill: #41d3bd;
@@ -449,6 +578,10 @@ h2.title {
       padding: 11px 27px;
       border-radius: 8px;
       background-color: #ede4ff;
+
+      @media screen and (max-width: 768px) {
+        margin-bottom: 50px;
+      }
 
       button {
         width: 100%;
@@ -490,18 +623,16 @@ h2.title {
   }
 
   .apply-button {
-    color: #3e3e3e;
-    font-weight: 600;
     margin-top: 100px;
-    border-radius: 4px;
     padding: 15px 117px;
     margin-bottom: 15px;
-    background: #ffd540;
     display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.19);
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.57);
+
+    @media screen and (max-width: 575px) {
+      width: 90%;
+      margin-top: 25px;
+      padding: 15px 5px;
+    }
   }
 
   .copy-after-button {
@@ -514,6 +645,7 @@ h2.title {
 #faq {
   text-align: center;
   background: $white;
+  position: relative;
 
   .title {
     color: #fff;
@@ -524,6 +656,12 @@ h2.title {
     padding-right: 170px;
     margin: 100px 0 20px;
     background: url(https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com_5.svg) top left/100% 100% no-repeat;
+
+    @media screen and (max-width: 575px) {
+      width: 90%;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
   }
 
   >p {
@@ -536,6 +674,10 @@ h2.title {
 
   .item {
     text-align: left;
+
+    @media screen and (max-width: 768px) {
+      text-align: center;
+    }
 
     h3 {
       color: $dusk;
@@ -565,11 +707,41 @@ h2.title {
     &:first-of-type {
       margin-top: 130px;
       margin-bottom: 20px;
+
+      @media screen and (max-width: 575px) {
+        margin-top: 25px;
+      }
     }
 
     &:last-of-type {
       margin-bottom: 150px;
     }
+
+    @media screen and (max-width: 575px) {
+      width: 90%;
+    }
+  }
+
+  >img {
+    position: absolute;
+  }
+
+  #half-loop-1 {
+    left: 0;
+    top: 227px;
+    height: auto;
+    z-index: 101;
+    max-height: 100%;
+    max-width: 24.2vw;
+  }
+
+  #half-loop-2 {
+    right: 0;
+    top: 732px;
+    height: auto;
+    z-index: 101;
+    max-height: 100%;
+    max-width: 20.7vw;
   }
 }
 
@@ -578,6 +750,12 @@ footer {
   padding: 50px 0;
   background: $dusk;
   position: relative;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 
   h3 {
     font-size: 22px;
@@ -598,6 +776,11 @@ footer {
   }
 
   >div:first-of-type {
+
+    @media screen and (max-width: 768px) {
+      order: 3;
+    }
+
     a {
       margin-right: 20px;
       text-decoration: none;
@@ -622,7 +805,20 @@ footer {
   }
 
   >img {
+    opacity: 0.4;
     position: absolute;
+  }
+
+  #square-thingy-10 {
+    top: 38px;
+    left: 20.9vw;
+    z-index: 100;
+  }
+
+  #square-thingy-11 {
+    right: 7vw;
+    z-index: 100;
+    bottom: 68.2px;
   }
 }
 
@@ -630,6 +826,7 @@ footer {
   padding: 15px;
   color: #3e3e3e;
   font-weight: 600;
+  text-align: center;
   border-radius: 4px;
   background: #ffd540;
   text-decoration: none;
