@@ -371,7 +371,7 @@ div[id="student-life"] {
         letter-spacing: normal;
         color: #5B00FF;
         display: block; }
-      div[id="student-life"] .coding-partner .left #square-thingy-3 {
+      div[id="student-life"] .coding-partner .left .square-thingy-3 {
         /*** small post-it image on headings***/
         margin: -16px -40px -49px -34px;
         z-index: -1;
@@ -440,7 +440,7 @@ div[id="student-life"] {
       letter-spacing: normal;
       color: #5B00FF;
       display: block; }
-    div[id="student-life"] .dedicated-mentor .right #square-thingy-3 {
+    div[id="student-life"] .dedicated-mentor .right .square-thingy-3 {
       /*** small post-it image on headings***/
       margin: -16px -40px -49px -34px;
       z-index: -1;
@@ -456,7 +456,7 @@ div[id="student-life"] {
         div[id="student-life"] .daily-schedule .left {
           margin: auto;
           padding-top: 3%; } }
-      div[id="student-life"] .daily-schedule .left #square-thingy-3 {
+      div[id="student-life"] .daily-schedule .left .square-thingy-3 {
         /*** small post-it image on headings***/
         margin: -16px -40px -49px -34px;
         z-index: -1;
