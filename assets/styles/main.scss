@@ -855,6 +855,10 @@
             background-color: #fff;
             box-shadow: 0 6px 12px 0 rgba(35, 18, 68, 0.18);
 
+            @media screen and (max-width: 768px) {
+              padding: 20px;
+            }
+
             .big-number {
               color: $dusk;
               font-size: 60px;

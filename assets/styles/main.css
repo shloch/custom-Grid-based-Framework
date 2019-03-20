@@ -855,6 +855,9 @@ h2.title {
     padding: 38px 70px 45px;
     background-color: #fff;
     box-shadow: 0 6px 12px 0 rgba(35, 18, 68, 0.18); }
+    @media screen and (max-width: 768px) {
+      #tuition > .white-card {
+        padding: 20px; } }
     #tuition > .white-card .big-number {
       color: #3e396b;
       font-size: 60px;
