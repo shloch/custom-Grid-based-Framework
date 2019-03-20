@@ -1,25 +1,27 @@
         /********************************************/
         /*             Louis styles                */
         /********************************************/
-        
+
         @import 'mixins';
         @import 'colors';
         @import 'type';
         /***** body *****/
-        
+
         body {
             @include default-styling;
         }
-        
+
         .yellow-buttons {
             @include yellow-buttons;
         }
+
         /***** upper container *****/
-        
+
         div[id="upper-container"] {
             background: url("../images/computer_girl.png") 130% 0 no-repeat;
             background-color: $microverse_pink;
             padding-left: 6%;
+
             //height: 500px;
             @media screen and (max-width: 762px) {
                 background: url("../images/computer_girl.png") 100% 0 no-repeat;
@@ -27,15 +29,18 @@
                 padding-left: 6%;
             }
         }
-        
+
         @import 'nav_links_styles';
+
         .upper-post-it {
             text-align: center;
             //border: 1px solid white;
         }
+
         /**** global school *****/
-        
+
         .global-school {
+
             //border: 1px solid white;
             h1 {
                 font-family: Domine;
@@ -47,6 +52,7 @@
                 letter-spacing: normal;
                 color: #ffffff;
             }
+
             #copy-header {
                 font-size: 20px;
                 line-height: 1.65;
@@ -54,10 +60,12 @@
                 margin-right: 30px;
                 margin-top: 15px;
             }
+
             .applynow {
                 text-align: center;
                 font-weight: 600;
                 letter-spacing: 0.034em;
+
                 @media screen and (max-width: 762px) {
                     display: inline-block;
                     width: 89%;
@@ -66,15 +74,17 @@
                 }
             }
         }
+
         /** lower postit ****/
-        
+
         .lower-postit {
             //border: 1px solid seagreen;
             //height: 100px;
             --oPadding: calc(0.16 * 100vw);
         }
-        
+
         .lower-pink {
+
             //background-image: -webkit-linear-gradient(280deg, $microverse_pink 50%, $microverse_white 51%);
             .lower-arrow {
                 //border: 1px solid seagreen;
@@ -82,6 +92,7 @@
                 color: white;
                 vertical-align: middle;
                 padding-top: 10.25em;
+
                 @media screen and (max-width: 992px) {
                     margin-top: 6.25em;
                     text-align: center;
@@ -91,13 +102,14 @@
                 }
             }
         }
-        
+
         .lower-pink2 {
             background-image: -webkit-linear-gradient(280deg, $microverse_pink 50%, $microverse_white 51%);
             height: 200px;
             //border: 1px solid black;
             margin-top: -80px;
             margin-left: -5%;
+
             @media screen and (max-width: 992px) {
                 background-image: -webkit-linear-gradient(280deg, $microverse_pink 50%, $microverse_white 51%);
                 height: 200px;
@@ -106,15 +118,18 @@
                 margin-left: -6%;
             }
         }
+
         /*--first yellow graphity yellow-->*/
-        
+
         #first-white-block {
             background-color: $microverse_white;
             padding-top: 1em;
+
             .center-heading {
                 //border: 1px solid black;
                 margin: auto;
                 text-align: center;
+
                 #life-changing-experience-title {
                     background: url('../images/graphity_yellow.svg') no-repeat;
                     //background-size: 100% 100%;
@@ -127,34 +142,42 @@
                     margin-bottom: 3%;
                 }
             }
+
             .center-heading-undertxt {
                 @include under-heading-txt;
             }
         }
+
         /*<!--______3 cubes section______-->*/
-        
+
         .cubes {
             //border: 1px solid red;
             padding-bottom: 3em;
             margin-top: 3%;
+
             .cube-1 {
                 @include cube-design;
             }
+
             .cube-2 {
                 @include cube-design;
             }
+
             .cube-3 {
                 @include cube-design;
             }
         }
+
         /*<!--___________STUDENT LIFE________-->*/
-        
+
         div[id="student-life"] {
             padding-bottom: 5%;
+
             .heading {
                 //border: 1px solid black;
                 text-align: center;
                 margin: auto;
+
                 #student-life-title {
                     background: url('../images/grafity-green.svg') no-repeat;
                     background-size: 100% 100%;
@@ -167,173 +190,214 @@
                     color: #f9f9f9;
                 }
             }
+
             .under-heading-txt {
                 @include under-heading-txt;
             }
+
             /*<!--Your Coding Partner-->*/
             .coding-partner {
                 margin-top: 3%;
+
                 //border: 1px solid black;
                 .left {
                     //border: 1px solid black;
                     padding-left: 6%;
                     padding-right: 6%;
+
                     @media screen and (max-width: 768px) {
                         margin: auto;
                     }
+
                     h3 {
                         margin-top: 25px;
                         margin-bottom: 19px;
                         @include h3-header;
                     }
+
                     p {
                         @include paragraph-design;
                     }
+
                     .faq-article-link {
                         @include faq-article-link;
                     }
+
                     #square-thingy-3 {
                         @include square-thingy-3;
                     }
                 }
+
                 .right {
                     //border: 1px solid black;
                     padding-right: 2%;
                     padding-left: 2%;
+
                     @media screen and (max-width: 768px) {
                         margin: auto;
                         padding-left: 5%;
                     }
+
                     img {
                         max-width: 100%;
                         height: auto;
                     }
                 }
+
                 .xright {
                     img {
                         width: 100%;
                     }
                 }
             }
+
             /**<!--Your dedicated mentor-->*/
             .dedicated-mentor {
+
                 //margin-top: 3%;
                 //border: 1px solid black;
                 .xleft {
+
                     //border: 1px solid black;
                     img {
                         width: 100%;
                     }
                 }
+
                 .left {
                     //border: 1px solid black;
                     padding-top: 14em;
                     padding-right: 6%;
+
                     @media screen and (max-width: 768px) {
                         margin: auto;
                         padding-top: 3%;
                     }
+
                     img {
                         max-width: 100%;
                         height: auto;
                     }
                 }
+
                 .right {
                     padding-top: 14em;
                     //border: 1px solid black;
                     padding-right: 2%;
                     padding-left: 2%;
+
                     @media screen and (max-width: 768px) {
                         margin: auto;
                         padding-left: 5%;
                         padding-top: 3%;
                     }
+
                     h3 {
                         margin-top: 25px;
                         margin-bottom: 19px;
                         @include h3-header;
                     }
+
                     p {
                         @include paragraph-design;
                     }
+
                     .faq-article-link {
                         @include faq-article-link;
                     }
+
                     #square-thingy-3 {
                         @include square-thingy-3;
                     }
                 }
+
                 .xright {
+
                     //margin: 1px solid red;
                     img {
                         width: 100%;
                     }
                 }
             }
+
             /**<!--Your daily schedule-->*/
             .daily-schedule {
                 //border: 1px solid red;
                 padding-top: 8%;
+
                 .left {
                     //border: 1px solid green;
                     padding-left: 6%;
                     text-align: center;
+
                     @media screen and (max-width: 768px) {
                         margin: auto;
                         padding-top: 3%;
                     }
+
                     #square-thingy-3 {
                         @include square-thingy-3;
                     }
+
                     h3 {
                         margin-top: 25px;
                         margin-bottom: 19px;
                         @include h3-header;
                     }
+
                     p {
                         @include paragraph-design;
+
                         .inner-green-link {
                             color: $teal;
                             text-decoration: none;
                         }
                     }
+
                     .faq-article-link {
                         @include faq-article-link;
                     }
                 }
+
                 .right {
                     padding-left: 3%;
                     text-align: center;
+
                     @media screen and (max-width: 768px) {
                         margin: auto;
                         padding-left: 5%;
                         padding-top: 3%;
                     }
+
                     img {
                         max-width: 100%;
                     }
                 }
             }
         }
-        
+
         .upper-worldclass-slope {
             background-image: -webkit-linear-gradient(280deg, white 50%, $microver-light-pink 51%);
             height: 200px;
             //margin-top: -80px;
             margin-left: -5%;
         }
+
         /*<!--_______SLIGHT PINK BLOCK_______-->*/
-        
+
         div[id="slight-pink"] {
             background-color: $microver-light-pink;
             text-align: center;
+
             .left {
                 padding-left: 6%;
                 padding-right: 4%;
+
                 @media screen and (max-width: 768px) {
                     margin: auto;
                     padding-top: 3%;
                 }
+
                 #world-class-curriculum-title {
                     background: url('https://www.microverse.org/img/brush-stroke-banner-1-onlygfx-dot-com_3.svg') no-repeat;
                     background-size: 100% 100%;
@@ -346,6 +410,7 @@
                     width: 89%;
                     @include h2-header;
                 }
+
                 p {
                     text-align: center;
                     margin: auto;
@@ -360,24 +425,29 @@
                     color: #636c98;
                 }
             }
+
             .right {
                 @media screen and (max-width: 768px) {
                     margin: auto;
                     padding-top: 3%;
                 }
+
                 img {
                     max-width: 85%;
                 }
             }
+
             /*<!--progamming language logos-->*/
             .programming-logos {
                 padding-top: 5%;
                 padding-bottom: 7%;
+
                 img {
                     display: inline-block;
                     //border: 1px solid black;
                     margin: 2% 2%;
                 }
+
                 hr {
                     width: 800%;
                     height: 2px;
@@ -387,9 +457,11 @@
                     border-color: #e9e9e9;
                 }
             }
+
             /*<!--_______SYLABUS block_______-->*/
             .syllabus {
                 padding-bottom: 7em;
+
                 #get-syllabus-title {
                     font-size: 20px;
                     margin-bottom: 0;
@@ -401,6 +473,7 @@
                     letter-spacing: normal;
                     color: $gray-dark;
                 }
+
                 #get-syllabus-email {
                     width: 35%;
                     height: 52px;
@@ -420,12 +493,14 @@
                     margin: 34px auto 15px auto;
                     border-color: transparent;
                 }
+
                 #syllabus-checkmark-label {
                     font-size: 14px;
                     color: $gray-dark;
                     font-family: Montserrat;
                     font-weight: 600;
                 }
+
                 #yellow-button-get-syllabus {
                     @include yellow-buttons;
                     font-weight: 600;
@@ -433,5 +508,5 @@
                 }
             }
         }
-        
+
         @import 'strips';

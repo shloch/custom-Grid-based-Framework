@@ -4,38 +4,704 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <!--GOOGLE FONTS-->
-
   <!--FONTAWESOME-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+
   <link rel="stylesheet" href="assets/styles/tailor.css" />
   <link rel="stylesheet" href="assets/styles/main.css" />
   <title>custom-Grid-based-Framework</title>
-  <style>
-    .hbox>div {
-      /* height: 100px;
-      max-height: 100px; */
-      border: 1px solid #567;
-    }
-
-    .hbox>div:first-of-type {
-      height: 50px;
-    }
-
-    div.hbox {
-      height: 200px;
-      border: 1px solid red;
-    }
-  </style>
 </head>
 
 <body>
-  <div class="hbox top h-center">
-    <div class="ds-2">1st</div>
-    <div class="ds-1">2nd</div>
-    <div class="ds-2">3rd</div>
+  <!-- TOP TO MIDDLE -->
+  <div id="upper-container">
+    <!--______navigation link__________-->
+    <nav class="hbox menu">
+      <div class="ds-3 logo">
+        <a class="navbar-logo">MICROVERSE</a>
+      </div>
+      <i class="fas fa-bars mybars"></i>
+      <div class="ds-9 md-none sm-none nav-links">
+
+        <ul class="nav">
+          <li> <a href="#"> Curriculum </a></li>
+          <li> <a href="#"> Community</a> </li>
+          <li> <a href="#"> Tuition</a></li>
+          <li> <a href="#"> Employers</a></li>
+          <li> <a href="#"> FAQ</a></li>
+          <li class="last-menu">APPLY NOW</li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--______middle post-it__________-->
+    <div class="ds-12 upper-post-it"> <img src="assets/images/group-19.svg" alt="#" /> </div>
+
+
+    <!--______GLOBAL school__________-->
+    <div class="hbox">
+      <div class="ds-5 md-12 sm-12 global-school">
+        <h1>The Global School for Remote Software Developers.</h1>
+        <p id="copy-header">No matter where you are in the world, Microverse trains you to become a remote software
+          developer and connects you with life-changing professional opportunities. The best part? <strong>You don’t pay
+            anything until you get a job!</strong>
+        </p> <br /> <br /> <br />
+
+        <a href="#" class="yellow-buttons applynow"> APPLY NOW </a>
+      </div>
+
+    </div>
+
+    <!--_____lower post it_______-->
+    <div class="hbox lower-pink">
+      <div class="ds-3 md-4 sm-4 lower-postit">
+        <br /><br /><br />
+        <img alt="#" src="assets/images/group-21.svg" />
+      </div>
+      <div class="ds-6 md-6 sm-6 lower-arrow">
+        <i class="fas fa-chevron-circle-down fa-7x"></i>
+      </div>
+    </div>
+
+    <div class="hbox lower-pink2">
+      <div class="ds-12">
+
+      </div>
+    </div>
+
+
   </div>
+
+  <!--___________lower-white________-->
+  <div id="first-white-block">
+    <!--first yellow graphity yellow-->
+    <div class="hbox">
+      <div class="ds-8 md-10 sm-10 center-heading">
+        <h2 id="life-changing-experience-title">A Life-Changing Experience</h2>
+      </div>
+
+      <div class="ds-5 md-8 sm-10 center-heading-undertxt">
+        Learn to code while surrounded by global connections, support, and opportunities.
+      </div>
+    </div>
+
+    <!--______3 cubes section______-->
+    <div class="hbox cubes">
+      <div class="ds-3 sm-12 cube-1">
+        <img alt="#" src="https://www.microverse.org/img/no-upfront-cost-block.png" />
+        <h3>NO UPFRONT COST</h3>
+        <p>You owe us nothing until you get a job—no matter what country you’re in.
+          <a href="https://support.microverse.org/cost-and-paying-for-the-program/about-the-isa/what-is-an-income-share-agreement-and-how-does-it-work"
+            target="_blank">
+            Learn more ➞</a>
+        </p>
+      </div>
+      <div class="ds-3 sm-12 cube-2">
+        <img alt="#" src="https://www.microverse.org/img/collaborative-learning-block.png" />
+        <h3>COLLABORATIVE LEARNING</h3>
+        <p>Learn through pair programming, mentor support, career coach guidance, and code reviews.</p>
+      </div>
+      <div class="ds-3 sm-12 cube-3">
+        <img alt="#" src="https://www.microverse.org/img/global-opportunities-block.png" />
+        <h3>GLOBAL OPPORTUNITIES</h3>
+        <p>Connect with global and remote jobs after gaining experience working on a distributed team.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--___________STUDENT LIFE________-->
+  <div id="student-life">
+    <div class="hbox">
+      <div class="ds-4 sm-8 heading">
+        <h2 id="student-life-title">Student Life</h2>
+      </div>
+    </div>
+    <div class="hbox">
+      <div class="ds-7 md-8 sm-10 under-heading-txt">
+        Collaboration, support, and remote pair programming are at the center of your Microverse experience as you learn
+        through building real projects.
+      </div>
+    </div>
+
+    <!--Your Coding Partner-->
+    <div class="hbox coding-partner">
+      <div class="ds-6 md-5 sm-10 left">
+        <img src="https://www.microverse.org/img/group-28.svg" id="square-thingy-3"
+          class="img-fluid background-element">
+        <h3>Your Coding Partner &amp; Stand-Up Team</h3>
+        <p>Learning to code on your own can be lonely and difficult. At Microverse, you’ll join one of the most
+          collaborative and social online school in the world.</p>
+        <p>Every day, you, your coding partner, and your stand-up team will support and hold each other accountable to
+          produce great work while remote pair programming.</p>
+        <a class="faq-article-link" href="https://support.microverse.org/the-program/pair-programming/how-will-i-learn"
+          target="_blank">
+          Learn more about collaborative learning <span class="dingbats-font">➞</span>
+        </a>
+      </div>
+      <div class="ds-5 md-5 sm-10 right">
+        <img src="https://www.microverse.org/img/coding-partner.png" alt="#">
+      </div>
+      <div class="ds-1 md-2 sm-1 xright">
+        <img src="https://www.microverse.org/img/path-2.svg" id="half-circle-1" class="m-0 p-0 img-fluid">
+      </div>
+    </div>
+
+    <!--Your dedicated mentor-->
+    <div class="hbox dedicated-mentor">
+      <div class="ds-1 md-1 sm-1 xleft">
+        <img src="https://www.microverse.org/img/path-2_3.svg" id="half-circle-1" class="m-0 p-0 img-fluid">
+      </div>
+
+      <div class="ds-5 md-5 sm-9 left">
+        <img src="https://www.microverse.org/img/mentors.png" alt="#">
+      </div>
+      <div class="ds-5 md-5 sm-10 right">
+        <img src="https://www.microverse.org/img/group-28.svg" id="square-thingy-3"
+          class="img-fluid background-element">
+        <h3>Your Dedicated Mentors &amp; Career Coaches</h3>
+        <p>Learning to code on your own can be lonely and difficult. At Microverse, you’ll join one of the most
+          collaborative and social online school in the world.</p>
+        <p>Every day, you, your coding partner, and your stand-up team will support and hold each other accountable to
+          produce great work while remote pair programming.</p>
+        <a class="faq-article-link" href="https://support.microverse.org/the-program/pair-programming/how-will-i-learn"
+          target="_blank">
+          Learn more about collaborative learning <span class="dingbats-font">➞</span>
+        </a>
+      </div>
+      <div class="ds-1 md-1 sm-1 xright">
+        <img src="https://www.microverse.org/img/path-2_2.svg" id="half-circle-1" class="m-0 p-0 img-fluid">
+      </div>
+
+    </div>
+
+    <!--Your daily schedule-->
+    <div class="hbox daily-schedule">
+      <div class="ds-6 sm-12 left">
+        <img src="https://www.microverse.org/img/group-28.svg" id="square-thingy-3"
+          class="img-fluid background-element">
+        <h3>Your Daily Schedule</h3>
+        <p>Microverse’s immersive, full-time structure assures that you continuously push yourself to your full
+          potential.
+        </p>
+        <p>Every day, you’ll complete a coding challenge with your stand-up team and then continue learning with your
+          coding partner through <a href="#" target="_blank" class="inner-green-link">remote pair programming</a> while
+          developing valuable
+          skills that employers look for in candidates.</p>
+        <a class="faq-article-link" href="#" target="_blank">Learn more about your daily schedule at Microverse ➞</a>
+      </div>
+
+      <div class="ds-6 sm-12 right">
+        <img alt="#" src="assets/images/timetable.png" />
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--pink/white sloppy transition-->
+  <div class="hbox upper-worldclass-slope">
+    <div class="ds-12">
+
+    </div>
+  </div>
+
+  <!--_______SLIGHT PINK BLOCK_______-->
+  <div id="slight-pink">
+    <div class="hbox">
+      <div class="ds-7 sm-12 left">
+        <h2 id="world-class-curriculum-title">A World-Class Curriculum</h2>
+        <p>Our curriculum focuses on helping you learn the most in-demand skills in software development so you can get
+          a great job no matter where you are.</p>
+        <p>During the program, you’ll build 30+ projects, develop a strong computer science foundation, and improve the
+          “soft skills” that employers love.</p>
+        <p>At the end of the program, your personal career coach will help you land your dream job and even negotiate
+          your job offers.</p>
+      </div>
+
+      <div class="ds-5 sm-12 right">
+        <img alt="#" src="assets/images/timetable2.png" />
+      </div>
+
+    </div>
+
+    <!--progamming language logos-->
+    <div class="hbox programming-logos">
+      <div class="ds-12">
+        <img src="https://www.microverse.org/img/html-5-plain-wordmark.svg" alt="#">
+        <img src="https://www.microverse.org/img/javascript-original.svg" alt="#">
+        <img src="https://www.microverse.org/img/css-3-plain-wordmark.svg" alt="#">
+        <img src="https://www.microverse.org/img/react-original-wordmark.svg" alt="#">
+        <img src="https://www.microverse.org/img/ruby-plain-wordmark.svg" alt="#">
+        <img src="https://www.microverse.org/img/rails-plain-wordmark.svg" alt="#">
+        <img src="https://www.microverse.org/img/github-original-wordmark.svg" alt="#">
+      </div>
+
+
+    </div>
+    <hr>
+
+    <!--_______SYLABUS block_______-->
+    <div class="hbox syllabus">
+      <div class="ds-12">
+        <!--enter email heading-->
+        <p id="get-syllabus-title">Enter your email to receive a PDF with the full syllabus</p>
+        <!--form-->
+        <form id="get-syllabus-form">
+          <input type="email" name="email" id="get-syllabus-email" placeholder="Your email address" required="">
+
+          <div class="form-check" id="get-syllabus-checkbox-container">
+            <input type="checkbox" value="" id="get-syllabus-checkbox" required="">
+            <span id="syllabus-checkmark-label">
+              I authorize Microverse to send the syllabus and information <br /> about the Software Development Program
+              to my email address.
+            </span>
+
+          </div><br /><br />
+          <a href="#" type="submit" id="yellow-button-get-syllabus">GET SYLLABUS</a>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--__________Microverse Rainbow strips______-->
+  <div class="strips">
+    <div class="hbox strip-row">
+      <div class="ds-5 color myellow"> </div>
+      <div class="ds-4 color light-pink"></div>
+      <div class="ds-2 color light-pink"></div>
+    </div>
+    <div class="hbox strip-row">
+      <div class="ds-4 color mgreen"> </div>
+      <div class="ds-3 color light-pink"></div>
+      <div class="ds-5 color myellow"></div>
+    </div>
+    <div class="hbox strip-row">
+      <div class="ds-3 color mpink"> </div>
+      <div class="ds-5 color mwhite"></div>
+      <div class="ds-4 color mgreen"></div>
+    </div>
+    <div class="hbox strip-row">
+      <div class="ds-3 color mwhite"> </div>
+      <div class="ds-3 color mwhite"></div>
+      <div class="ds-6 color mpink"></div>
+    </div>
+  </div>
+
+  <!-- MIDDLE TO BOTTOM -->
+  <section id="global-community" class="vbox center">
+    <h2 class="title">A Global Community</h2>
+    <p class="ds-9">
+      Microverse students come from different countries, ethnicities, and
+      walks of life. Joining Microverse means you’ll create global
+      connections, make new friends, and leverage global and diverse
+      opportunities.
+    </p>
+    <div class="map ds-10 md-none">
+      <img src="https://www.microverse.org/img/thumbnails/map.png" alt="Map of microverse students" />
+    </div>
+    <div id="testimonials" class="hbox ds-10 md-11 top h-center">
+      <div class="ds-4 md-10 sm-12">
+        <div class="card">
+          <div class="picture">
+            <img src="https://www.microverse.org/img/thumbnails/circle-paul.png" alt="Picture" />
+          </div>
+          <p>
+            — Before I even finished Microverse, I lost sleep deciding between
+            several great job offers. Calling it a "bootcamp" would be a
+            disservice.
+          </p>
+          <div class="quotation-mark">“</div>
+          <p>Paul Rail</p>
+          <p>🇨🇦 Canada</p>
+        </div>
+      </div>
+      <div class="ds-4 md-10 sm-12">
+        <div class="card">
+          <div class="picture">
+            <img src="https://www.microverse.org/img/thumbnails/circle-sava.png" alt="Picture" />
+          </div>
+          <p>
+            — I would definitely recommend Microverse to anyone who is hungry to learn software development. Their
+            pair
+            programming approach has a lot of benefits.
+          </p>
+          <div class="quotation-mark">“</div>
+          <p>Sava Vuckovic</p>
+          <p>🇷🇸 Nis, Serbia</p>
+        </div>
+      </div>
+      <div class="ds-4 md-10 sm-12">
+        <div class="card">
+          <div class="picture">
+            <img src="https://www.microverse.org/img/thumbnails/circle-max.png" alt="Picture" />
+          </div>
+          <p>
+            — Microverse helps you stand out from the busy, global bootcamp landscape. It’s the best decision I’ve
+            ever
+            made, and I can’t wait to start my new job!
+          </p>
+          <div class="quotation-mark">“</div>
+          <p>Max Li</p>
+          <p>🇹🇼 Taiwan</p>
+        </div>
+      </div>
+    </div>
+    <div id="community-testimonials" class="vbox center">
+      <div class="content hbox ds-10 sm-12 v-center">
+        <div class="ds-6 sm-12">
+          <h3>World-Class Guest Speakers</h3>
+          <p>
+            Microverse regularly hosts guests from different backgrounds that
+            work at the world’s leading companies to speak on a variety of
+            topics that interest and inspire students.
+          </p>
+          <a class="yellow-button" href="https://bigmarker.com/microverse" target="_blank">
+            WATCH PAST SESSIONS
+          </a>
+        </div>
+        <div class="picture ds-6 sm-12">
+          <img class="stack" src="https://www.microverse.org/img/2000-px-stack-overflow-logo-svg.png"
+            alt="stack-overflow" />
+          <img class="lonely" src="https://www.microverse.org/img/lonely-planet-svg.png" alt="lonely-planet" />
+          <img class="plex" src="https://www.microverse.org/img/plex-logo.png" alt="plex" />
+          <img class="heroku" src="https://www.microverse.org/img/heroku-logo.png" alt="heroku" />
+        </div>
+        <div class="picture ds-6 sm-12 order-4">
+          <img src="https://www.microverse.org/img/gitlab-logo.png" alt="gitlab" />
+          <img src="https://www.microverse.org/img/thumb-692-1200-x-630-0-0-auto.png" alt="buffer" />
+          <img src="https://www.microverse.org/img/trello-logo-blue.png" alt="trello" />
+          <img src="https://www.microverse.org/img/1-r-kn-gdqsl-5-lie-3-l-r-7-j-n-0-a-zq-2-x.png" alt="doist" />
+        </div>
+        <div class="ds-6 sm-12">
+          <h3>Global Opportunities</h3>
+          <p>
+            With Microverse's unique, remote, pair programming approach,
+            students learn the communication and collaboration skills needed
+            to thrive in a remote workplace.
+          </p>
+          <a class="yellow-button"
+            href="https://support.microverse.org/the-program/getting-a-job/does-microverse-help-me-find-a-job"
+            target="_blank">
+            LEARN ABOUT JOB PLACEMENT
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="founder-story">
+    <div class="content hbox bottom h-center">
+      <div class="ariel-portrait hbox ds-3 sm-10 h-center">
+        <img class="sm-5" src="https://www.microverse.org/img/dsc-2716-ariel.png" alt="ariel-portrait" />
+        <div class="vbox top ds-none sm-flex sm-5">
+          <img class="signature" src="https://www.microverse.org/img/signature-5-color.svg" alt="founder-signature" />
+          <p>
+            <strong>Ariel Camus</strong><br />
+            Microverse Founder &amp; CEO
+          </p>
+        </div>
+      </div>
+      <div class="vbox ds-7 sm-10 right">
+        <h2 class="title">The Founder’s Story</h2>
+        <p>
+          I grew up in Argentina, went to school in Europe, built a business in
+          San Francisco, taught in Africa, and lived in Asia for a year. In my
+          life's journey, I’ve seen that talent is everywhere, but opportunity
+          is not.
+        </p>
+        <p>
+          Nowadays, the Internet makes it possible for anyone to connect with
+          global jobs regardless of where they were born or live. However,
+          paying for a great education is incredibly difficult for most people.
+        </p>
+        <p>
+          I started Microverse to change that—to help people from all around the
+          world learn software development at no upfront cost and to connect
+          them with global jobs no matter their location, gender, or background.
+        </p>
+        <img class="sm-none" src="https://www.microverse.org/img/signature-5-color.svg" alt="founder-signature" />
+        <p class="sm-none">
+          <strong>Ariel Camus</strong><br />
+          Microverse Founder &amp; CEO
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="tuition" class="vbox center">
+    <h2 class="title">Tuition</h2>
+    <p class="ds-7 sm-11">
+      There are no up-front costs required to attend Microverse; we only get
+      paid when you do. Once you earn at least $1,000 per month, you pay us
+      back 15% of your income until you reach a $15,000 cap.
+    </p>
+    <div class="white-card ds-5 md-7 sm-11">
+      <div class="big-number">$0</div>
+      <div class="big-number-cont">UPFRONT</div>
+      <p class="white-card-copy">
+        No matter your country of residence or citizenship, you don’t have to
+        pay anything to join Microverse.
+      </p>
+    </div>
+    <div class="tuition-pathway-1">
+      <p id="step-1">Complete the <br> program</p>
+      <p id="step-2">Get a job</p>
+      <svg height="245" width="24">
+        <line x1="12" x2="12" y1="6" y2="245"></line>
+        <circle cx="12" cy="90" r="12"></circle>
+        <circle cx="12" cy="180" r="12"></circle>
+      </svg>
+    </div>
+    <div class="white-card ds-5 md-7 sm-11">
+      <div class="big-number">15%</div>
+      <div class="big-number-cont">INCOME</div>
+      <p class="white-card-copy">
+        After you complete the program and get a job earning at least $1,000
+        USD per month, you pay 15% of your monthly salary back to Microverse.
+      </p>
+    </div>
+    <div class="tuition-pathway-2">
+      <svg height="90" width="24">
+        <line x1="12" x2="12" y1="6" y2="90"></line>
+        <circle cx="12" cy="78" r="12"></circle>
+      </svg>
+      <p id="step-3">
+        You stop paying when you reach a cap of $15,000 USD.
+      </p>
+    </div>
+    <img src="https://www.microverse.org/img/group-5.svg" id="square-thingy-6">
+    <img src="https://www.microverse.org/img/group-4.svg" id="square-thingy-7">
+    <img src="https://www.microverse.org/img/group-9.svg" id="square-thingy-8">
+    <img src="https://www.microverse.org/img/group-10.svg" id="square-thingy-9">
+  </section>
+  <section id="application-process" class="vbox center">
+    <h2 class="title">Application Process</h2>
+    <p class="ds-7 sm-11">
+      Show us that you are a great team player and determined to work really
+      hard to become a successful software developer. We select less than 1%
+      of all the people that apply.
+    </p>
+    <div class="table ds-10 sm-9 xs-11">
+      <h4 class="header step-1">
+        <svg width="36" height="36">
+          <circle cx="18" cy="18" r="18"></circle>
+          <text x="50%" y="50%" text-anchor="middle" dy=".3em">1</text>
+        </svg>
+        PRE-COURSE<br />WORK
+      </h4>
+      <div class="content step-1">
+        <button>OPTIONAL</button>
+        <button>SELF-PACED</button>
+        <p>
+          Complete the pre-course work if you are new to coding or want to
+          prepare for the coding challenges.
+        </p>
+      </div>
+      <h4 class="header step-2">
+        <svg width="36" height="36">
+          <circle cx="18" cy="18" r="18"></circle>
+          <text x="50%" y="50%" text-anchor="middle" dy=".3em">2</text>
+        </svg>
+        CODING<br />CHALLENGES
+      </h4>
+      <div class="content step-2">
+        <button>REQUIRED</button>
+        <button>2-4 HOURS</button>
+        <p>
+          Show us that you can think as a software developer by solving a few
+          simple algorithmic coding challenges.
+        </p>
+      </div>
+      <h4 class="header step-3">
+        <svg width="36" height="36">
+          <circle cx="18" cy="18" r="18"></circle>
+          <text x="50%" y="50%" text-anchor="middle" dy=".3em">3</text>
+        </svg>
+        TRIALS
+      </h4>
+      <div class="content step-3">
+        <button>REQUIRED</button>
+        <button>3 DAYS</button>
+        <p>
+          Get paired to 3 other applicants and build a collaborative project
+          with each one of them.
+        </p>
+      </div>
+      <h4 class="header step-4">
+        <svg width="36" height="36">
+          <circle cx="18" cy="18" r="18"></circle>
+          <text x="50%" y="50%" text-anchor="middle" dy=".3em">4</text>
+        </svg>
+        FULL-TIME<br />PROGRAM
+      </h4>
+      <div class="content step-4">
+        <button>FULL-TIME</button>
+        <button>6-8 MONTHS</button>
+        <p>
+          If you pass all the previous steps, you will be invited to become a
+          full-time student for 6-8 months of hard work.
+        </p>
+      </div>
+    </div>
+    <a class="yellow-button apply-button" href="https://microverse.typeform.com/to/ISPDmV">
+      APPLY NOW
+    </a>
+    <p class="copy-after-button">
+      Microverse is completely free until you get a job
+    </p>
+  </section>
+  <section id="faq" class="vbox center">
+    <h2 class="title">FAQ</h2>
+    <p class="ds-7 sm-11">
+      If you have any questions about the curriculum, the payment model or
+      anything related to your career as a software developer, we are here to
+      help you.
+    </p>
+    <div class="hbox top h-center ds-10">
+      <div class="item ds-5 sm-11">
+        <h3>What's the cost of the program?</h3>
+        <p>
+          You will pay 15% of your monthly salary once you get a job as a
+          software developer making at least $1,000 per month. The payments will
+          stop once you reach a cap of $15,000.
+          <a href="https://support.microverse.org/tuition-and-paying-for-the-program" target="_blank">
+            Learn more
+          </a>
+          .
+        </p>
+      </div>
+      <div class="item ds-5 sm-11 ds-lgap-1 sm-lgap-0">
+        <h3>Is Microverse available worldwide?</h3>
+        <p>
+          Yes, we believe that education should be accessible to everyone. Our
+          program is completely remote and don't have any kind of upfront cost
+          no matter where you live.
+        </p>
+      </div>
+      <div class="item ds-5 sm-11">
+        <h3>How long does the program last?</h3>
+        <p>
+          Microverse's full-time program lasts 6-8 months, and you should also
+          be prepared to dedicate a few more months after that to apply to jobs.
+        </p>
+      </div>
+      <div class="item ds-5 sm-11 ds-lgap-1 sm-lgap-0">
+        <h3>When does the program start?</h3>
+        <p>
+          You can start the pre-course work or go through our application
+          process any time you want. A new class of full-time Microverse
+          students starts each month.
+        </p>
+      </div>
+      <div class="item ds-5 sm-11">
+        <h3>What are the requirements to join the program?</h3>
+        <p>
+          In order to join Microverse's full-time program, you need to complete
+          our
+          <a href="https://microverse.typeform.com/to/ISPDmV" target="_blank">
+            application process
+          </a>
+          , be fluent in English, and be available to join full-time. Check out
+          the full list of requirements
+          <a href="https://support.microverse.org/applying-to-microverse/can-i-join/what-are-the-requirements-to-join-the-program"
+            target="_blank">
+            here
+          </a>
+          .
+        </p>
+      </div>
+      <div class="item ds-5 sm-11 ds-lgap-1">
+        <h3>What will I learn?</h3>
+        <p>
+          The goal of the program is to make you a proficient full-stack web
+          developer with strong team skills and workflows. You'll learn HTML,
+          CSS, JavaScript, React, Ruby, and Ruby on Rails as you build 30+
+          projects.
+        </p>
+      </div>
+    </div>
+    <a class="yellow-button" href="https://support.microverse.org/" target="_blank">
+      MORE QUESTIONS
+    </a>
+    <a class="yellow-button" href="#">TALK TO US</a>
+    <img src="https://www.microverse.org/img/combined-shape_2.svg" id="half-loop-1">
+    <img src="https://www.microverse.org/img/combined-shape_3.svg" id="half-loop-2">
+  </section>
+  <footer class="hbox top">
+    <div class="ds-3 ds-lgap-1 sm-11 sm-lgap-0">
+      <h3 class="logo">microverse</h3>
+      <p class="copy">
+        Talent is everywhere, but opportunity is not. Follow us on our journey
+        to close the gap and connect one million people to remote jobs by
+        2030.
+      </p>
+      <a href="https://www.facebook.com/microverseinc/" target="_blank">
+        <img src="https://www.microverse.org/img/icon-facebook.svg" alt="facebook" />
+      </a>
+      <a href="https://www.instagram.com/microverseinc/" target="_blank">
+        <img src="https://www.microverse.org/img/icon-instagram.svg" alt="instagram" />
+      </a>
+      <a href="https://twitter.com/microverseinc" target="_blank">
+        <img src="https://www.microverse.org/img/icon-twitter.svg" alt="twitter" />
+      </a>
+    </div>
+    <div class="ds-2 ds-lgap-1 sm-11 sm-lgap-0">
+      <h3>About us</h3>
+      <ul class="list">
+        <li>
+          <a href="https://support.microverse.org/about-microverse/general-questions/what-is-microverses-mission"
+            target="_blank">
+            Mission
+          </a>
+        </li>
+        <li>
+          <a href="http://support.microverse.org/about-microverse/who-is-behind-microverse" target="_blank">
+            Team
+          </a>
+        </li>
+        <li>
+          <a href="https://www.microverse.org/#get-syllabus-form">Syllabus</a>
+        </li>
+        <li><a href="https://www.microverse.org/#faq">FAQ</a></li>
+        <li>
+          <a href="https://support.microverse.org/about-microverse/press-kit">
+            Press
+          </a>
+        </li>
+        <li>
+          <a href="https://www.microverse.org/#">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+    <div class="ds-2 sm-11">
+      <h3>More</h3>
+      <ul class="list">
+        <li>
+          <a href="https://microverse.typeform.com/to/ISPDmV">
+            Apply
+          </a>
+        </li>
+        <li>
+          <a href="https://angel.co/microverse/jobs" target="_blank">
+            Careers
+          </a>
+        </li>
+        <li>
+          <a href="https://bigmarker.com/microverse" target="_blank">
+            Weekly Webinars
+          </a>
+        </li>
+        <li>
+          <a href="https://www.microverse.org/privacy">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="https://www.microverse.org/terms">
+            Terms &amp; Conditions
+          </a>
+        </li>
+      </ul>
+    </div>
+    <img id="square-thingy-10" src="https://www.microverse.org/img/group-10_2.svg" alt="square-thingy" />
+    <img id="square-thingy-11" src="https://www.microverse.org/img/group-4_2.svg" alt="square-thingy" />
+  </footer>
 </body>
 
 </html>
