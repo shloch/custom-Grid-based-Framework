@@ -198,7 +198,7 @@ div[id="upper-container"] {
       line-height: normal;
       letter-spacing: normal;
       text-align: center;
-      color: var(--dusk);
+      color: #3e396b;
       margin-bottom: 3%; }
   #first-white-block .center-heading-undertxt {
     text-align: center;
@@ -297,7 +297,7 @@ div[id="student-life"] {
       line-height: normal;
       letter-spacing: normal;
       text-align: center;
-      color: var(--dusk);
+      color: #3e396b;
       color: #f9f9f9; }
   div[id="student-life"] .under-heading-txt {
     text-align: center;
@@ -329,7 +329,7 @@ div[id="student-life"] {
         font-stretch: normal;
         line-height: normal;
         letter-spacing: normal;
-        color: var(--dusk); }
+        color: #3e396b; }
       div[id="student-life"] .coding-partner .left p {
         font-family: Montserrat;
         font-size: 17px;
@@ -398,7 +398,7 @@ div[id="student-life"] {
       font-stretch: normal;
       line-height: normal;
       letter-spacing: normal;
-      color: var(--dusk); }
+      color: #3e396b; }
     div[id="student-life"] .dedicated-mentor .right p {
       font-family: Montserrat;
       font-size: 17px;
@@ -450,7 +450,7 @@ div[id="student-life"] {
         font-stretch: normal;
         line-height: normal;
         letter-spacing: normal;
-        color: var(--dusk); }
+        color: #3e396b; }
       div[id="student-life"] .daily-schedule .left p {
         font-family: Montserrat;
         font-size: 17px;
@@ -519,7 +519,7 @@ div[id="slight-pink"] {
       line-height: normal;
       letter-spacing: normal;
       text-align: center;
-      color: var(--dusk); }
+      color: #3e396b; }
     div[id="slight-pink"] .left p {
       text-align: center;
       margin: auto;

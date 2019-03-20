@@ -78,12 +78,6 @@
 
         /** lower postit ****/
 
-        .lower-postit {
-          //border: 1px solid seagreen;
-          //height: 100px;
-          --oPadding: calc(0.16 * 100vw);
-        }
-
         .lower-pink {
 
           //background-image: -webkit-linear-gradient(280deg, $microverse_pink 50%, $microverse_white 51%);
@@ -224,7 +218,7 @@
                 @include faq-article-link;
               }
 
-              #square-thingy-3 {
+              .square-thingy-3 {
                 @include square-thingy-3;
               }
             }
@@ -307,7 +301,7 @@
                 @include faq-article-link;
               }
 
-              #square-thingy-3 {
+              .square-thingy-3 {
                 @include square-thingy-3;
               }
             }
@@ -336,7 +330,7 @@
                 padding-top: 3%;
               }
 
-              #square-thingy-3 {
+              .square-thingy-3 {
                 @include square-thingy-3;
               }
 
@@ -574,7 +568,6 @@
               }
 
               &:nth-of-type(2) {
-
                 >.picture {
                   background-size: 100% 100%;
                   background-image: url(https://www.microverse.org/img/rectangle-8.svg);
@@ -630,7 +623,6 @@
             transform: skewY(-9deg);
 
             .order-4 {
-
               @media screen and (max-width: 768px) {
                 order: 4;
               }
@@ -1081,7 +1073,7 @@
 
                 text {
                   fill: #fff;
-                  font: bold 20px inherit;
+                  font: bold 20px Montserrat;
                 }
               }
             }
@@ -1288,7 +1280,6 @@
           }
 
           >div:first-of-type {
-
             @media screen and (max-width: 768px) {
               order: 3;
             }

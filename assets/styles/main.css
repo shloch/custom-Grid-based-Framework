@@ -220,10 +220,6 @@ div[id="upper-container"] {
 }
 
 /** lower postit ****/
-.lower-postit {
-  --oPadding: calc(0.16 * 100vw);
-}
-
 .lower-pink .lower-arrow {
   text-align: center;
   color: white;
@@ -282,7 +278,7 @@ div[id="upper-container"] {
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: var(--dusk);
+  color: #3e396b;
   margin-bottom: 3%;
 }
 
@@ -413,7 +409,7 @@ div[id="student-life"] .heading #student-life-title {
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: var(--dusk);
+  color: #3e396b;
   color: #f9f9f9;
 }
 
@@ -456,7 +452,7 @@ div[id="student-life"] .coding-partner .left h3 {
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: var(--dusk);
+  color: #3e396b;
 }
 
 div[id="student-life"] .coding-partner .left p {
@@ -483,7 +479,7 @@ div[id="student-life"] .coding-partner .left .faq-article-link {
   display: block;
 }
 
-div[id="student-life"] .coding-partner .left #square-thingy-3 {
+div[id="student-life"] .coding-partner .left .square-thingy-3 {
   /*** small post-it image on headings***/
   margin: -16px -40px -49px -34px;
   z-index: -1;
@@ -556,7 +552,7 @@ div[id="student-life"] .dedicated-mentor .right h3 {
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: var(--dusk);
+  color: #3e396b;
 }
 
 div[id="student-life"] .dedicated-mentor .right p {
@@ -583,7 +579,7 @@ div[id="student-life"] .dedicated-mentor .right .faq-article-link {
   display: block;
 }
 
-div[id="student-life"] .dedicated-mentor .right #square-thingy-3 {
+div[id="student-life"] .dedicated-mentor .right .square-thingy-3 {
   /*** small post-it image on headings***/
   margin: -16px -40px -49px -34px;
   z-index: -1;
@@ -610,7 +606,7 @@ div[id="student-life"] .daily-schedule .left {
   }
 }
 
-div[id="student-life"] .daily-schedule .left #square-thingy-3 {
+div[id="student-life"] .daily-schedule .left .square-thingy-3 {
   /*** small post-it image on headings***/
   margin: -16px -40px -49px -34px;
   z-index: -1;
@@ -627,7 +623,7 @@ div[id="student-life"] .daily-schedule .left h3 {
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: var(--dusk);
+  color: #3e396b;
 }
 
 div[id="student-life"] .daily-schedule .left p {
@@ -718,7 +714,7 @@ div[id="slight-pink"] .left #world-class-curriculum-title {
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: var(--dusk);
+  color: #3e396b;
 }
 
 div[id="slight-pink"] .left p {
@@ -1428,7 +1424,7 @@ h2.title {
 
 #application-process .table .header svg text {
   fill: #fff;
-  font: bold 20px inherit;
+  font: bold 20px Montserrat;
 }
 
 #application-process .table>.content {

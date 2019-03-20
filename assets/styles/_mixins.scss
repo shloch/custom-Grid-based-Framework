@@ -53,7 +53,7 @@
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
-    color: var(--dusk);
+    color: $dusk;
 }
 
 @mixin h3-header {
@@ -64,7 +64,7 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: var(--dusk);
+    color: $dusk;
 }
 
 @mixin cube-design {
@@ -75,16 +75,20 @@
     line-height: 1.41;
     color: #636c98;
     padding: 0 25px;
+
     a {
         text-decoration: none;
         color: #47CDAF;
     }
+
     h3 {
         //padding: 0 25px;
     }
+
     img {
         width: 100%;
     }
+
     p {
         font-family: Montserrat;
         font-size: 17px;

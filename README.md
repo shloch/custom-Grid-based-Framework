@@ -68,3 +68,4 @@ From exaple above, the second block is hidden (invisible) at small screens.
 
 
 ## Live demo
+https://raw.githack.com/shloch/custom-Grid-based-Framework/develop/index.html
