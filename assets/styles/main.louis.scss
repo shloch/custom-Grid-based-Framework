@@ -17,7 +17,7 @@
         /***** upper container *****/
         
         div[id="upper-container"] {
-            background: url("../images/computer_girl.png") 100% 0 no-repeat;
+            background: url("../images/computer_girl.png") 130% 0 no-repeat;
             background-color: $microverse_pink;
             padding-left: 6%;
             //height: 500px;
@@ -81,7 +81,7 @@
                 text-align: center;
                 color: white;
                 vertical-align: middle;
-                //padding-top: 6.25em;
+                padding-top: 10.25em;
                 @media screen and (max-width: 992px) {
                     margin-top: 6.25em;
                     text-align: center;
@@ -210,8 +210,8 @@
                     }
                 }
                 .xright {
-                    #half-circle-1 {
-                        position: absolute;
+                    img {
+                        width: 100%;
                     }
                 }
             }
@@ -221,6 +221,9 @@
                 //border: 1px solid black;
                 .xleft {
                     //border: 1px solid black;
+                    img {
+                        width: 100%;
+                    }
                 }
                 .left {
                     //border: 1px solid black;
@@ -262,6 +265,9 @@
                 }
                 .xright {
                     //margin: 1px solid red;
+                    img {
+                        width: 100%;
+                    }
                 }
             }
             /**<!--Your daily schedule-->*/
@@ -383,6 +389,7 @@
             }
             /*<!--_______SYLABUS block_______-->*/
             .syllabus {
+                padding-bottom: 7em;
                 #get-syllabus-title {
                     font-size: 20px;
                     margin-bottom: 0;
@@ -426,3 +433,5 @@
                 }
             }
         }
+        
+        @import 'strips';
