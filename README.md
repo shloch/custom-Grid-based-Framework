@@ -88,4 +88,4 @@ From example above, the second block is removed (display: none) at small screens
 
 ## Live demo
 
-The live demo is available here: _https://raw.githack.com/shloch/custom-Grid-based-Framework/develop/index.html_
+The live demo is available here: _https://rawcdn.githack.com/shloch/custom-Grid-based-Framework/3b4bc04f48eabc1b80066c1eb94c83c2e293246b/index.html_
