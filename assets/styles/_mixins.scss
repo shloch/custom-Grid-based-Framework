@@ -1,0 +1,145 @@
+@mixin default-styling {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+@mixin rounded-corners {
+    $rounded-corner-radius: 4px;
+    -webkit-border-radius: $rounded-corner-radius;
+    -moz-border-radius: $rounded-corner-radius;
+    -ms-border-radius: $rounded-corner-radius;
+    border-radius: $rounded-corner-radius;
+}
+
+@mixin yellow-buttons-menu {
+    background-color: #FFCE32;
+    color: #2F2F30;
+    padding-bottom: 11px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 20px;
+    @include rounded-corners;
+}
+
+@mixin yellow-buttons {
+    background-color: #FFCE32;
+    color: #2F2F30;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    text-decoration: none;
+    @include rounded-corners;
+}
+
+@mixin h2-header {
+    font-family: Domine;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: $dusk;
+}
+
+@mixin h3-header {
+    font-family: Domine;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $dusk;
+}
+
+@mixin cube-design {
+    //border: 1px solid black;
+    margin-left: 6%;
+    padding: 1%;
+    text-align: center;
+    line-height: 1.41;
+    color: #636c98;
+    padding: 0 25px;
+
+    a {
+        text-decoration: none;
+        color: #47CDAF;
+    }
+
+    h3 {
+        //padding: 0 25px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        font-family: Montserrat;
+        font-size: 17px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+    }
+}
+
+@mixin under-heading-txt {
+    text-align: center;
+    //border: 1px solid black;
+    margin: auto;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: center;
+    color: #636c98;
+}
+
+@mixin paragraph-design {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.94;
+    letter-spacing: normal;
+    color: #636c98;
+}
+
+@mixin faq-article-link {
+    font-family: Montserrat;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.19;
+    letter-spacing: normal;
+    color: $microverse_pink;
+    display: block;
+}
+
+@mixin square-thingy-3 {
+    /*** small post-it image on headings***/
+    margin: -16px -40px -49px -34px;
+    z-index: -1;
+    display: inline-block;
+}
