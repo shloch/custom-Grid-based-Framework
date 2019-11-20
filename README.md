@@ -8,6 +8,11 @@ It is part of [Microverse](https://www.microverse.org/) curriculum.
 - Louis SHEY _https://github.com/shloch_
 - Fabien RAKOTOMAMPIANDRA _https://github.com/FabienNeibaf_
 
+
+## Live demo
+
+The live demo is available here: _https://rawcdn.githack.com/shloch/custom-Grid-based-Framework/3b4bc04f48eabc1b80066c1eb94c83c2e293246b/index.html_
+
 ## USAGE
 
 Our CSS grid framework is in "tailor.scss" file.
@@ -94,6 +99,4 @@ From example above, the second block is removed (display: none) at small screens
 
 ![alt text](https://github.com/shloch/custom-Grid-based-Framework/blob/master/assets/images/screenshot2.png)
 
-## Live demo
 
-The live demo is available here: _https://rawcdn.githack.com/shloch/custom-Grid-based-Framework/3b4bc04f48eabc1b80066c1eb94c83c2e293246b/index.html_
