@@ -90,9 +90,9 @@ From example above, the second block is removed (display: none) at small screens
 ## Screenshot 
 
 
-![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/assets/images/screenshot_pc.png)
+![alt text](https://github.com/shloch/custom-Grid-based-Framework/blob/master/assets/images/screenshot1.png)
 
-![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/assets/images/screenshot_pc.png)
+![alt text](https://github.com/shloch/custom-Grid-based-Framework/blob/master/assets/images/screenshot2.png)
 
 ## Live demo
 
