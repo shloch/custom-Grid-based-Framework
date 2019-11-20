@@ -86,6 +86,14 @@ EXAMPLE :
 
 From example above, the second block is removed (display: none) at small screens and reappear at extra small screens.
 
+
+## Screenshot 
+
+
+![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/assets/images/screenshot_pc.png)
+
+![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/assets/images/screenshot_pc.png)
+
 ## Live demo
 
 The live demo is available here: _https://rawcdn.githack.com/shloch/custom-Grid-based-Framework/3b4bc04f48eabc1b80066c1eb94c83c2e293246b/index.html_
