@@ -3,11 +3,6 @@
 This project aims to create a replica of www.microverse.org website.
 It is part of [Microverse](https://www.microverse.org/) curriculum.
 
-## Contributors
-
-- Louis SHEY _https://github.com/shloch_
-- Fabien RAKOTOMAMPIANDRA _https://github.com/FabienNeibaf_
-
 
 ## Live demo
 
@@ -98,5 +93,19 @@ From example above, the second block is removed (display: none) at small screens
 ![alt text](https://github.com/shloch/custom-Grid-based-Framework/blob/master/assets/images/screenshot1.png)
 
 ![alt text](https://github.com/shloch/custom-Grid-based-Framework/blob/master/assets/images/screenshot2.png)
+
+![alt text](https://github.com/shloch/custom-Grid-based-Framework/blob/master/assets/images/design.gif)
+
+## Contributors
+
+### 👤 **SHEY Louis CHIA**
+
+- Github: [shloch](https://github.com/shloch)
+- Twitter: [@shloch](https://twitter.com/shloch)
+- Linkedin: [/in/shey-louis-chia](https://www.linkedin.com/in/shey-louis-chia)
+- Email: shloch2007@yahoo.fr
+
+## 👤 **Fabien RAKOTOMAMPIANDRA**
+- Fabien RAKOTOMAMPIANDRA _https://github.com/FabienNeibaf_
 
 
