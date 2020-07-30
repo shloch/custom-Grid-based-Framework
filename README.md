@@ -108,4 +108,8 @@ From example above, the second block is removed (display: none) at small screens
 ## 👤 **Fabien RAKOTOMAMPIANDRA**
 - Fabien RAKOTOMAMPIANDRA _https://github.com/FabienNeibaf_
 
-
+## Acknowledgements
+- https://raw.githack.com/
+- https://getbootstrap.com/
+- https://fontawesome.com/
+- https://www.microverse.org/
